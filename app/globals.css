@@ -1,33 +1,74 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+*, body {
+    font-family: "Arvo", serif;
+    font-weight: 400;
+   
+    font-style: normal;
   }
+
+.wbg-green{
+  color: #6BAAB7 ;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+/* propertiesoverview btn-hover */
+.btn-color{
+  color:white;
+  background-color: #6BAAB7;
+  border-color:  #6BAAB7;
+ border: none; 
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.btn-color:hover{
+  color: white;
+  background-color: black;
+  
+}
+/* AboutEkaya btn-hover */
+.btn-colors{
+  color:white;
+  background-color: black;
+  border-color: #B3E5D3;
+}
+
+.btn-colors:hover{
+  color: black;
+  background-color: white;
+  
+}
+.btns-colors{
+  color:black;
+  background-color: white;
+  border-color: #B3E5D3;
+
+  
+}
+
+.btns-colors:hover{
+  color:#FFFFFF;
+  background-color: black;
+  
+  
+}
+
+.color-footer{
+  text-decoration: none;
+  color:black ;
+  
+  
+}
+.color-footer:hover{
+  color: white;
+  background-color:#6BAAB7 ; 
+}
+
+.border-bottom-lite {
+  border-bottom:1px solid rgb(142, 140, 140) !important;
+}
+/* MODREN CONTENT MIDDLEMEDIA QUERY WANT TO WRITE */
+ .middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
 }
