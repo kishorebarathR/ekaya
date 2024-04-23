@@ -1,12 +1,12 @@
 
 import React from 'react'
-import { Row, Col, Container } from 'react-bootstrap'
+import { Row, Col, Container,Image } from 'react-bootstrap'
 
 const AboutDonalBanner = () => {
   return (
     <>
 
-      <img src="/images/Mask Group 98.jpg  " className="img-fluid  w-100 h-100 " alt="..."></img>
+      <Image src="/images/Mask Group 98.jpg  " className="img-fluid  w-100 h-100 " alt="..."/>
 
       <Container>
         <p className=' fs-5 mx-4 mt-5'>Nestled along the picturesque coastline of Goa, Dona Paula stands as a testament to the region’s timeless allure and natural beauty. Named after Dona Paula de Menezes, a historical figure enveloped in folklore, this iconic locale captivates visitors with its panoramic vistas of the Arabian Sea and verdant landscapes.</p>
@@ -17,7 +17,7 @@ const AboutDonalBanner = () => {
       <Row className='mt-5'>
 
         <Col className='' sm={12} lg={6}>
-          <img src="/images/Mask Group 98.jpg  " className="img-fluid w-100 h-100 mt-5  " alt="..."></img>
+          <Image src="/images/Mask Group 98.jpg  " className="img-fluid w-100 h-100 mt-5  " alt="..."/>
         </Col>
 
         <Col className='mt-5  ' sm={12} lg={5}>
@@ -32,14 +32,14 @@ const AboutDonalBanner = () => {
         </Col>
 
         <Col className='mt-5  ' sm={12} lg={6}>
-          <img src="/images/Mask Group 98.jpg  " className="img-fluid w-100 h-100 mt-5  " alt="..."></img>
+          <Image src="/images/Mask Group 98.jpg  " className="img-fluid w-100 h-100 mt-5  " alt="..." />
         </Col>
       </Row>
 
       <Row className='mt-5'>
 
         <Col className='' sm={12} lg={6}>
-          <img src="/images/Mask Group 98.jpg  " className="img-fluid w-100 h-100 mt-5  " alt="..."></img>
+          <Image src="/images/Mask Group 98.jpg  " className="img-fluid w-100 h-100 mt-5  " alt="..." />
         </Col>
 
         <Col className='mt-5  ' sm={12} lg={5}>
@@ -54,7 +54,7 @@ const AboutDonalBanner = () => {
         </Col>
 
         <Col className='mt-5  ' sm={12} lg={6}>
-          <img src="/images/Mask Group 98.jpg  " className="img-fluid w-100 h-100 mt-5  " alt="..."></img>
+          <Image src="/images/Mask Group 98.jpg  " className="img-fluid w-100 h-100 mt-5  " alt="..." />
         </Col>
       </Row>
 

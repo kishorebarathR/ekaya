@@ -1,6 +1,6 @@
 
 import React from 'react'
-import { Row, Col, Container } from 'react-bootstrap'
+import { Row, Col, Container, Image } from 'react-bootstrap'
 
 const Footerpage = () => {
     return (
@@ -16,7 +16,7 @@ const Footerpage = () => {
 
             <div className='mx-5 p-5 ' style={{ backgroundColor: '#F1F4F5' }}>
                 <Container>
-                    <img src="/images/Group 49397 (1).svg" className=" bg-dark w-25 mt-3" alt="..." />
+                    <Image src="/images/Group 49397 (1).svg" className=" bg-dark w-25 mt-3" alt="..." />
                 </Container>  <hr></hr>
                 
 
