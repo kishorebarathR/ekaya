@@ -7,10 +7,10 @@ const Footerpage = () => {
         <>
  <Container>
                 <Row className=' mt-5 '>
-                    <Col className='d-flex flex-row text-center mx-4'>
-                        <a href="#" className="  w-100 p-2 fs-5  color-footer">Facebook</a>
-                        <a href="#" className="  w-100 p-2 fs-5 color-footer">LinkedIn</a>
-                        <a href="#" className="  w-100 p-2 fs-5 color-footer">YouTube</a></Col>
+                    <Col lg={12} className='d-flex flex-row text-center '>
+                        <a href="#" className="  w-100 p-2 fs-5  color-footer border">Facebook &#129125;</a>
+                        <a href="#" className="  w-100 p-2 fs-5 color-footer border">LinkedIn &#129125;</a>
+                        <a href="#" className="  w-100 p-2 fs-5 color-footer border">YouTube &#129125;</a></Col>
                 </Row>
             </Container>
 

@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const Headerpage = () => {
   return (
     <>
-      <Container fluid className='position-absolute'>
+      <Container fluid className='position-absolute z-index-100'>
         <Container>
           <Row>
             <Col lg={2}>
@@ -35,8 +35,8 @@ const Headerpage = () => {
             <Col lg={4}>
               <Image src="/images/Group 49397 (1).svg" className="img-fluid  mt-4" alt="..." />
             </Col>
-            <Col lg={4}>
-              <Button className="btn btn-outline-dark  rounded-5 bg-white mt-4 float-end me-5">INQUIRE</Button>
+            <Col lg={4}><button type="button" class="btn-color-home rounded-5 border-0 float-end p-2 me-3 mt-4">INQUIRE&#8594;</button>
+             
             </Col> 
           </Row>
         </Container>

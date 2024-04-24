@@ -10,7 +10,12 @@
 .wbg-green{
   color: #6BAAB7 ;
 }
-
+.btn-color-home{
+  color: #6BAAB7 ;
+  background-color: white;
+  border: none; 
+  
+}
 /* propertiesoverview btn-hover */
 .btn-color{
   color:white;
@@ -54,12 +59,13 @@
 .color-footer{
   text-decoration: none;
   color:black ;
-  
-  
+  border-color: #6BAAB7 !important; 
 }
+
 .color-footer:hover{
   color: white;
   background-color:#6BAAB7 ; 
+  /* border:#6BAAB7 ;  */
 }
 
 .border-bottom-lite {
@@ -71,4 +77,24 @@
   flex-direction: column;
   justify-content: center;
 
+}
+/* MOIRA PAGE BG-COLOR */
+.talkbubble {
+ 
+  background: red;
+  position: relative;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+.talkbubble:before {
+  content: "";
+  position: absolute;
+  right: 100%;
+  top: 26px;
+  width: 0;
+  height: 0;
+  border-top: 13px solid transparent;
+  border-right: 26px solid red;
+  border-bottom: 13px solid transparent;
 }

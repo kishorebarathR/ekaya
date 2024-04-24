@@ -28,19 +28,19 @@ const BannerAllPageComponents = ({backgroundImage}) => {
     return (
         <>
             <div
-                className='d-flex flex-column h-auto '
-                // style={{
-                //     // backgroundImage: isMobile ? url(${mobileBackgroundImage.url}) : url(${backgroundImage.url}), // Access the URL from the object
-                //     backgroundImage: `url(${backgroundImage.url})`,
-                //     backgroundSize: 'cover',
-                //     backgroundRepeat: 'no-repeat',
-                //     width: '100%',
-                //     minHeight: 'auto',
-                // }}
+                className='d-flex flex-column min-vh-100 z-0'
+                style={{
+                    // backgroundImage: isMobile ? url(${mobileBackgroundImage.url}) : url(${backgroundImage.url}), // Access the URL from the object
+                    backgroundImage: `url(${backgroundImage.url})`,
+                    backgroundSize: 'cover',
+                    backgroundRepeat: 'no-repeat',
+                    width: '100%',
+                    minHeight:'100vh',
+                }}
             >
 
                 {/* <Image src={`url(${backgroundImage.url})`} alt='' fluid className='img-fluid w-100 h-100 '/> */}
-                <Image src={`${backgroundImage.url}`} alt='' fluid className='img-fluid w-100 h-100' />
+                {/* <Image src={`${backgroundImage.url}`} alt='' fluid className='img-fluid w-100 h-100' /> */}
 
                 {/* <Col lg={7} className="pl-8 d-flex flex-column justify-content-start">
                     <h1 className="fs-21 fw-bold">{bannerHeading}</h1>

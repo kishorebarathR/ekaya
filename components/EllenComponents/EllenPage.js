@@ -33,7 +33,7 @@ const EllenPage = () => {
                             <div className="carousel-inner">
 
                                 <div className="carousel-item active" data-bs-interval="2000">
-                                    <Image src="/images/Mask Group 98.jpg" class=" w-100" alt="..." />
+                                    <Image src="/images/Mask Group 35.jpg" class=" w-100 h-100" alt="..." />
 
                                 </div>
 
