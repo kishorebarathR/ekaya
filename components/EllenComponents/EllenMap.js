@@ -12,7 +12,7 @@ const EllenMap = () => {
                  </Col>
 
                  <Col lg={6}>
-                 <Image src="/images/Group 49550.jpg" className="img-fluid   w-100 h-100 " alt="..."/>
+                 <Image src="/images/map.jpg" className="img-fluid   w-100 h-100 ms-3" alt="..."/>
                  </Col>
 
                 </Row>

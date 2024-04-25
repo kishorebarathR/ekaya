@@ -18,21 +18,21 @@ const Modern = () => {
             <Container fluid >
                 
     
-            <Container className=''style={{ marginLeft: '130px' }}>
-            <Col className='fs-5  col-lg-3 px-5 'style={{ backgroundColor: '#DFF3F4' }}>Project Gallery</Col>
+            <Container className='ms-4 '>
+            <Col className='fs-5 col-lg-4 text-center   azureish-white'>Project Gallery</Col>
             </Container>
-                <Row className=''style={{ backgroundColor: '#5CA2B0' }}>
+                <Row className='wbg-dark-green'>
            
                 <Col></Col>
                 
-                    <Col>
-                        <p className=' fs-5 mt-5 text-white  me-5 p-1'>Experience the pinnacle of modern living with our spacious homes, featuring thoughtful layouts and upscale amenities.</p>
+                    <Col className=' middle '>
+                        <p className=' fs-5 mt-5 text-white  me-5 p-1 middle-content'>Experience the pinnacle of modern living with our spacious homes, featuring thoughtful layouts and upscale amenities.</p>
                      </Col>
                     
                  
                    
-                    <Col lg={8}  >
-                        <Image src="/images/Mask Group 61.jpg " className="img-fluid  w-100 p-0 m-0" alt="..."/>
+                    <Col lg={8} className='p-0' >
+                        <Image src="/images/Embrace_img2.jpg " className="img-fluid  w-100 " alt="..."/>
                     </Col>
                 </Row>
             </Container>

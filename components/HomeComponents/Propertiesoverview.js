@@ -47,43 +47,25 @@ const Propertiesoverview = () => {
           <Col sm={12} lg={8}>
 
 
-            <div id="slides" className="carousel slide" data-bs-ride="carousel">
-
-
-              <div className="carousel-indicators">
-                <button type="button" data-bs-target="#slides" data-bs-slide-to="0" class="active"></button>
-                <button type="button" data-bs-target="#slides" data-bs-slide-to="1"></button>
-
-              </div>
-
-
-
-              <div className="carousel-inner">
-
-                <div className="carousel-item active" data-bs-interval="2000">
-                  <Image src="/images/Mask Group 98.jpg" class=" w-100" alt="..." />
-
-                </div>
-
-                <div className="carousel-item" data-bs-interval="2000">
-                  <Image src="/images/Mask Group 35.jpg" className=" w-100 h-100" alt="..." />
-                </div>
-
-
-                <button className="carousel-control-prev" type="button" data-bs-target="#slides" data-bs-slide="prev">
-
-                  <span className="carousel-control-prev-icon bg-dark rounded-5"></span>
-
-                </button>
-
-                <button className="carousel-control-next" type="button" data-bs-target="#slides" data-bs-slide="next">
-
-                  <span className="carousel-control-next-icon bg-dark rounded-5"></span>
-                </button>
-
-              </div>
-            </div>
-
+          <div id="carouselExampleFade" class="carousel slide carousel-fade">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <Image src="/images/carousle.jpg" class="d-block w-100 h-100" alt="..."/>
+    </div>
+    <div class="carousel-item">
+      <Image src="/images/carousel-img.jpg" class="d-block w-100 h-100" alt="..."/>
+    </div>
+    
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
             <p className=' fs-4 mt-4 mx-5 '>Takshavi</p>
             <p className='justify-content-center mx-5 fs-5'>Ekaya Spaces proudly unveils Takshavi, a boutique residential<br></br> enclave nestled in the heart of Frazer Town’s Spencer Road.</p>
             <button class=" btn-outline-dark w-25 p-2 mx-5 btn-color bt">Know More</button>

@@ -5,14 +5,14 @@ const Features = () => {
     return (
         <>
 
-            <Container fluid className='text-white px-4' style={{ backgroundColor: '#CAB575' }}>
+            <Container fluid className='text-white px-4 wbg-yellow'>
                 <Container className='px-5'>
                     <Col className='border-bottom'>
-                        <p className=' p-1 display-6'>Features</p>
+                        <p className=' p-1 display-6 ms-5'>Features</p>
                     </Col>
                     <Row className='border-bottom'>
                         <Col>
-                            <p className='fs-5 '>
+                            <p className='fs-5 ms-5'>
                                 <b>
                                     SANITARY & PLUMBING
                                 </b>
@@ -37,7 +37,7 @@ const Features = () => {
 
                     <Row className='border-bottom'>
                         <Col>
-                            <p className='fs-5'>
+                            <p className='fs-5 ms-5'>
                                 <b>ELECTRICAL</b>
                             </p>
                         </Col>
@@ -62,7 +62,7 @@ const Features = () => {
 
                     <Row className='border-bottom'>
                         <Col>
-                            <p className='fs-5'>
+                            <p className='fs-5 ms-5'>
                                 <b>AIR CONDITIONG</b>
                             </p>
                         </Col>
@@ -86,7 +86,7 @@ const Features = () => {
 
                     <Row className='border-bottom'>
                         <Col>
-                            <p className='fs-5'>
+                            <p className='fs-5 ms-5'>
                                 <b>TELEPHONE POINTS</b>
                             </p>
                         </Col>
@@ -111,7 +111,7 @@ const Features = () => {
 
                     <Row className='border-bottom '>
                         <Col>
-                            <p className='fs-5'>
+                            <p className='fs-5 ms-5'>
                                 <b>TELEPHONE POINTS</b>
                             </p>
                         </Col>
@@ -129,11 +129,11 @@ const Features = () => {
                     </Row>
                     <Row className='border-bottom'>
                         <Col>
-                            <p className='fs-5'>
+                            <p className='fs-5 ms-5'>
                                 <b>D.G</b>
                             </p>
                         </Col>
-                        <Col className='d-flex flex-column fs-5 '>
+                        <Col className='d-flex flex-column fs-5 ' sm={6}>
                             <div className='d-flex flex-row justify-content-start align-items-start '>
                                 <div >
                                     <Image src="/images/Ellipse 147.svg  " className="m-2" style={{ width: '8px' }} alt="..."></Image>
@@ -151,7 +151,7 @@ const Features = () => {
 
                     <Row className='border-bottom'>
                         <Col>
-                            <p className='fs-5'>
+                            <p className='fs-5 ms-5'>
                                 <b>ELEVATORS</b>
                             </p>
                         </Col>
@@ -165,9 +165,9 @@ const Features = () => {
                         </Col>
                     </Row>
 
-                    <Row className='border-bottom'>
+                    <Row className='border-bottom '>
                         <Col>
-                            <p className='fs-5'>
+                            <p className='fs-5 ms-5'>
                                 <b>SECURITY</b>
                             </p>
                         </Col>

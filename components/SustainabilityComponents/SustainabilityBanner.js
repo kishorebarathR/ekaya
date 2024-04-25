@@ -2,17 +2,20 @@ import React from 'react'
 import { Row, Col, Container,Image } from 'react-bootstrap'
 import BannerAllPageComponents from '../PropsComponents/BannerAllPageComponents'
 
-const EmbraceBanner = () => {
+const SustainabilityBanner = () => {
     const bgImage = {
-        url: '/images/Embrace-banner.jpg'
+        url: '/images/Sustainability-banner.png'
       }
     return (
         <>
- <BannerAllPageComponents backgroundImage={bgImage} />
-         
+
+          
+<BannerAllPageComponents backgroundImage={bgImage} />
+           
+        
 
         </>
     )
 }
 
-export default EmbraceBanner
+export default SustainabilityBanner

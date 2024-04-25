@@ -1,18 +1,19 @@
 import React from 'react'
 import { Row, Col, Container,Image } from 'react-bootstrap'
 import BannerAllPageComponents from '../PropsComponents/BannerAllPageComponents'
-
-const EmbraceBanner = () => {
+const MoiraBanner = () => {
     const bgImage = {
-        url: '/images/Embrace-banner.jpg'
+        url: '/images/Moira-banner.jpg '
       }
     return (
         <>
- <BannerAllPageComponents backgroundImage={bgImage} />
+
+<BannerAllPageComponents backgroundImage={bgImage} />
+           
          
 
         </>
     )
 }
 
-export default EmbraceBanner
+export default MoiraBanner
