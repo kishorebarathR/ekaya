@@ -9,21 +9,13 @@ const AmoraBanner = () => {
 
   return (
     <>
-      <BannerAllPageComponents backgroundImage={bgImage} />
-      {/* <div
-        className="p-0 w-100 position-relative"
-        style={{
-          backgroundImage: 'url("/images/AmoraBanner.png")',
-          height: "1000px",
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover"
-        }}
-      >
-        <div className="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-start text-white px-5">
-          <h1 style={{ fontSize: "100px" }}>Amora</h1>
-          <h1 style={{ color: "#BBC6C9", fontSize: "100px" }}>By Ekaya Spaces</h1>
-          <div className="d-flex flex-row gap-2">
-            <div className="d-flex flex-column justify-content-center">
+      {/* <div className="position-relative p-0"> */}
+<BannerAllPageComponents backgroundImage={bgImage} />
+{/* <div className="position-absolute ms-lg-5 top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-start text-white">
+          <h1 className="ms-lg-5 px-lg-5" style={{ fontSize: "100px" }}>Amora</h1>
+          <h1 className="ms-lg-5 px-lg-5" style={{ color: "#BBC6C9", fontSize: "50px" }}>by Ekaya Spaces</h1>
+          <div className="d-flex flex-row gap-2 mt-3 ms-lg-5 px-lg-5">
+            <div className="d-flex flex-column justify-content-center ">
               <h2 className="text-white fs-1">Moira</h2>
             </div>
             <div className="border-start border-5 px-2 d-flex flex-column justify-content-center">
@@ -34,7 +26,7 @@ const AmoraBanner = () => {
             </div>
           </div>
         </div>
-      </div> */}
+</div> */}
     </>
   );
 };

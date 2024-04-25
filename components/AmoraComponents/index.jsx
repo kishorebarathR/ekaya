@@ -7,12 +7,14 @@ import AmoraPage from "../AmoraComponents/AmoraPage"
 import Highlights from "../AmoraComponents/Highlights"
 import Form from "../HomeComponents/Form";
 
+
 const index = () => {
   return (
     <>
       <Header />
       <AmoraBanner />
       <AmoraPage/>
+
       <Highlights/>
       <Form />
       <Footer />

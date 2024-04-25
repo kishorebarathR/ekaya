@@ -28,7 +28,7 @@ const BannerAllPageComponents = ({backgroundImage}) => {
     return (
         <>
             <div
-                className='d-flex flex-column h-100vh position-relatives'
+                className='d-flex flex-column h-100vh position-relativess'
                 style={{
                     // backgroundImage: isMobile ? url(${mobileBackgroundImage.url}) : url(${backgroundImage.url}), // Access the URL from the object
                     backgroundImage: `url(${backgroundImage.url})`,
@@ -44,8 +44,8 @@ const BannerAllPageComponents = ({backgroundImage}) => {
 
                 <Col className="position-absolute end-0 bottom-0 ">
                     {/* <h1 className="fs-21 fw-bold">{bannerHeading}</h1> */}
-                    <Button className="px-5 py-3 bg-white text-black border-0 rounded-0">
-                        Contact Us 
+                    <Button className="px-5 py-3 bg-white text-black border-0 rounded-0 w-100">
+                        Contact Us
                     </Button>
                 </Col>
             </div>

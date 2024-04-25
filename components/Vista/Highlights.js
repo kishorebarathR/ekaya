@@ -4,10 +4,13 @@ import { Row, Col, Container, Image } from "react-bootstrap";
 const Highlights = () => {
   return (
     <>
-      <h2 className="p-5 ms-lg-5 fs-1">Location Highlights</h2>
+    <Container>
+      <h2 className="p-5 ms-lg-5 mx-4 px-lg-5 fs-1">Location Highlights</h2>
+    </Container>
+      
       <Container className="p-5">
         <Row>
-          <Col lg={3} className="mb-3">
+          <Col lg={3} className="mb-3 ms-lg-5">
             <div className="text-center talkbubble w-100 p-4 fs-5 h-100">
               Hotels
             </div>
@@ -21,7 +24,7 @@ const Highlights = () => {
           </Col>
         </Row>
         <Row>
-          <Col lg={3} className="mb-3">
+          <Col lg={3} className="mb-3 ms-lg-5">
             <div className="text-center justify-content-center talkbubble w-10 p-5 h-100 fs-5">
               Beaches
             </div>
@@ -37,7 +40,7 @@ const Highlights = () => {
               <li>Baga : 26 Km</li>
             </ul>
           </Col>
-          <Col lg={4}>
+          <Col lg={3}>
           <ul className="ms-5">
               <li> Anjuna : 30 Km </li>
               <li>Vagator : 29 Km </li>
@@ -51,7 +54,7 @@ const Highlights = () => {
         </Row>
 
         <Row>
-          <Col lg={3} className="mb-3">
+          <Col lg={3} className="mb-3 ms-lg-5">
             <div className="text-center talkbubble w-100 p-4 fs-5 h-100">
               Hospitals
             </div>
@@ -65,7 +68,7 @@ const Highlights = () => {
         </Row>
 
         <Row>
-          <Col lg={3} className="mb-3">
+          <Col lg={3} className="mb-3 ms-lg-5">
           <div className="text-center talkbubble w-100 h-100 p-4 fs-5">Schools</div>
           </Col>
           <Col lg={5}>
@@ -77,7 +80,7 @@ const Highlights = () => {
         </Row>
 
         <Row>
-          <Col lg={3} className="mb-3">
+          <Col lg={3} className="mb-3 ms-lg-5">
           <div className="text-center talkbubble w-100 h-100 p-4 fs-5">Airports</div>
           </Col>
           <Col lg={5}>
@@ -89,7 +92,7 @@ const Highlights = () => {
         </Row>
 
         <Row>
-          <Col lg={3} className="mb-3">
+          <Col lg={3} className="mb-3 ms-lg-5">
           <div className="text-center talkbubble w-100 h-100 p-4 fs-5">Railway Stations</div>
           </Col>
           <Col lg={5}>

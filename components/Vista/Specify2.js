@@ -10,10 +10,10 @@ const Specificy2 = () => {
         style={{ backgroundColor: "#ABD2D3" }}
       >
         <div className="border-bottom-white "></div>
-        <Container className="px-lg-5">
+        <Container className="">
           <Row className="border-bottom-white">
             <Col>
-              <p className="fs-5 p-3">
+              <p className="fs-5 px-lg-5 p-3 ms-lg-5 m-0">
                 <b>SANITARY & PLUMBING</b>
               </p>
             </Col>
@@ -31,7 +31,7 @@ const Specificy2 = () => {
 
           <Row className="border-bottom-white">
             <Col>
-              <p className="fs-5 p-3">
+              <p className="fs-5 px-lg-5 ms-lg-5 p-3 m-0">
                 <b>ELECTRICAL</b>
               </p>
             </Col>
@@ -53,7 +53,7 @@ const Specificy2 = () => {
 
           <Row className="border-bottom-white">
             <Col>
-              <p className="fs-5 p-3">
+              <p className="fs-5 px-lg-5 ms-lg-5 p-3 m-0">
                 <b>AIR CONDITIONG</b>
               </p>
             </Col>
@@ -71,7 +71,7 @@ const Specificy2 = () => {
 
           <Row className="border-bottom-white">
             <Col>
-              <p className="fs-5 p-3">
+              <p className="fs-5 px-lg-5 ms-lg-5 p-3 m-0">
                 <b>TELEPHONE POINTS</b>
               </p>
             </Col>
@@ -88,7 +88,7 @@ const Specificy2 = () => {
 
           <Row className="border-bottom-white">
             <Col>
-              <p className="fs-5 p-3">
+              <p className="fs-5 px-lg-5 ms-lg-5 p-3 m-0">
                 <b>D.G. KIRLOSKAR MAKE</b>
               </p>
             </Col>
@@ -107,12 +107,12 @@ const Specificy2 = () => {
 
           <Row className=" border-bottom-white">
             <Col>
-              <p className="fs-5 p-3">
+              <p className="fs-5 px-lg-5 ms-lg-5 p-3 m-0">
                 <b>ELEVATORS</b>
               </p>
             </Col>
 
-            <Col className="d-flex flex-column fs-5 p-3">
+            <Col className="d-flex flex-column fs-5 p-lg-3">
               <div className="d-flex flex-row justify-content-start align-items-start ">
                 <div>
                   <ul>
@@ -125,7 +125,7 @@ const Specificy2 = () => {
 
           <Row className="">
             <Col>
-              <p className="fs-5 p-3">
+              <p className="fs-5 px-lg-5 ms-lg-5 p-3 m-0">
                 <b>SECURITY</b>
               </p>
             </Col>
