@@ -6,18 +6,18 @@ const Insights = () => {
     return (
         <>
             <Container>
-                <p className='text-center mt-3 display-6'>Insights</p>
+                <p className='text-center mt-3 display-5'>Insights</p>
 
-                <p className='text-center mx-5 p-4 fs-5'>Gain valuable insights into the world of luxury real estate and what makes an Ekaya home <br></br>the right choice for discerning buyers.</p>
+                <p className='text-center fs-5'>Gain valuable insights into the world of luxury real estate and what makes an Ekaya home <br></br>the right choice for discerning buyers.</p>
 
                 <div className='d-flex flex-row mx-5 '>
 
-                    <div className=" " >
+                    <div className="mt-3 " >
                         <div className="mt-3 ">
                             <Image src="/images/Mask Group 35.jpg" className="card-img-top w-100 h-50" alt="..." />
-                            <div className='p-3'>
-                                <div>Spaces that connect inside and outside</div>
-                                <div className="">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.</div>
+                            <div className=''>
+                                <div className='fs-5'><b>Spaces that connect inside and outside</b></div>
+                                <div className="mt-1 fs-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.</div>
                             </div>
                         </div>
                     </div>
@@ -25,9 +25,9 @@ const Insights = () => {
                     <div className="mt-4 " >
                         <div className="mt-3 ">
                             <Image src="/images/Mask Group 34.jpg" className="card-img-top w-100 h-50" alt="..." />
-                            <div className='p-3 '>
-                                <div>Spaces that connect inside and outside</div>
-                                <div className="">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.</div>
+                            <div className='mt-3 '>
+                                <div className='fs-5'><b>Spaces that connect inside and outside</b></div>
+                                <div className="mt-1 fs-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.</div>
                             </div>
                         </div>
                         <div className='text-center me-3'>
@@ -38,9 +38,9 @@ const Insights = () => {
                     <div className="mt-5 " >
                         <div className="mt-3 ">
                             <Image src="/images/Mask Group 33.jpg" className="card-img-top w-100 h-50" alt="..." />
-                            <div className='p-3 '>
-                                <div>Spaces that connect inside and outside</div>
-                                <div className="">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.</div>
+                            <div className='mt-3'>
+                                <div className='fs-5'><b>Spaces that connect inside and outside</b></div>
+                                <div className="mt-1 fs-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.</div>
                             </div>
                         </div>
                     </div>
