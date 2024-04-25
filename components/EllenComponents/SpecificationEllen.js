@@ -8,12 +8,12 @@ const SpecificationEllen = () => {
                 <Container className='px-5'>
                     <p className='  mt-5 p-1 display-6'>Specifications</p><hr></hr>
                     <Row className='border-bottom-lite'>
-                        <Col>
+                        <Col lg={3}>
                             <p className='fs-5'>
                                 <b>STRUCTURE</b>
                             </p>
                         </Col>
-                        <Col className='d-flex flex-column fs-5 '>
+                        <Col className='d-flex flex-column fs-5 ' lg={5}>
 
                             <div className='d-flex flex-row justify-content-start align-items-start '>
                                 <div >
@@ -58,13 +58,13 @@ const SpecificationEllen = () => {
 
 
                     <Row className='border-bottom-lite'>
-                        <Col>
+                        <Col lg={6}>
                             <p className='fs-5'>
                                 <b>PAINTING</b>
                             </p>
                         </Col>
 
-                        <Col className='d-flex flex-column fs-5 '>
+                        <Col className='d-flex flex-column fs-5 ' lg={6}>
 
                             <div className='d-flex flex-row justify-content-start align-items-start '>
                                 <div >

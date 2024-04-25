@@ -59,7 +59,7 @@ const ProjectRegistrationForm = () => {
               <input type="checkbox" className="form-check-input" id="termsCheckbox" required />
               <label className="form-check-label" htmlFor="termsCheckbox">I declared that I have read,understood and accept the <a href="#" class="link-primary">Privacy Policy.</a></label>
             </div>
-            <button type="submit" className="btn btn-primary p-1 px-5 py-2 rounded-0" style={{ backgroundColor: '#474848' }}>Submit</button>
+            <button type="submit" className="btn btn-primary p-1 px-5 py-2 rounded-0 border-0" style={{ backgroundColor: '#474848' }}>Submit</button>
           </Col>
         </Row>
       </Container>

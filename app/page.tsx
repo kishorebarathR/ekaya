@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <MainHomeComponents />
-      {/* test push from bhavan */}
+
     </>
   );
 }
