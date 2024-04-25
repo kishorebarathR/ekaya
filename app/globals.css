@@ -10,6 +10,36 @@
 .wbg-green{
   color: #6BAAB7 ;
 }
+.dot{
+  color: red;
+  width: 8px;
+}
+.wbg-green-dark{
+  background-color: #ABD2D3;
+}
+.wbg-dark-green{
+  background-color: #5CA2B0;
+  
+}
+.green{
+  background-color: #D5F0F0;
+}
+.wbg-yellow{
+  background-color: #CAB575; 
+}
+
+.wbg-light-yellow{
+  background-color:  #D3C18B;  
+}
+
+
+.azureish-white{
+  background:#E1F0F0 !important;
+}
+.light-gray{
+  background-color: #EFF1F3;
+}
+
 .btn-color-home{
   color: #6BAAB7 ;
   background-color: white;
@@ -44,16 +74,12 @@
 .btns-colors{
   color:black;
   background-color: white;
-  border-color: #B3E5D3;
-
-  
+  border-color: #B3E5D3;  
 }
 
 .btns-colors:hover{
   color:#FFFFFF;
-  background-color: black;
-  
-  
+  background-color: black;  
 }
 
 .color-footer{
@@ -65,7 +91,6 @@
 .color-footer:hover{
   color: white;
   background-color:#6BAAB7 ; 
-  /* border:#6BAAB7 ;  */
 }
 
 .border-bottom-lite {
@@ -78,23 +103,34 @@
   justify-content: center;
 
 }
-/* MOIRA PAGE BG-COLOR */
-.talkbubble {
- 
-  background: red;
-  position: relative;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
+/* Embrace page content middel */
+.middle-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: -150px;
 }
-.talkbubble:before {
-  content: "";
-  position: absolute;
-  right: 100%;
-  top: 26px;
+
+
+/* triangel right */
+#triangle-right {
   width: 0;
   height: 0;
-  border-top: 13px solid transparent;
-  border-right: 26px solid red;
-  border-bottom: 13px solid transparent;
+  border-top: 15px solid transparent;
+  border-left: 15px solid #E1F0F0;
+  border-bottom: 15px solid transparent;
+  position: absolute; 
+  top: 50%;
+  left: 0;
+}
+
+#triangle-left {
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-right: 15px solid #E1F0F0;
+  border-bottom: 15px solid transparent;
+  position: absolute; 
+  top: 50%;
+  right: 0;
 }

@@ -1,11 +1,14 @@
 import React from 'react'
 import { Row, Col, Container,Image } from 'react-bootstrap'
-
+import BannerAllPageComponents from '../PropsComponents/BannerAllPageComponents'
 const MoiraBanner = () => {
+    const bgImage = {
+        url: '/images/Moira-banner.jpg '
+      }
     return (
         <>
 
-            <Image src="/images/Group 49568.jpg " className="img-fluid   w-100 h-100 " alt="..."/>
+<BannerAllPageComponents backgroundImage={bgImage} />
            
          
 

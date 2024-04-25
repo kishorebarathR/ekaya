@@ -4,12 +4,12 @@ import { Row, Col, Container, Image } from 'react-bootstrap'
 const SpecificationEllen = () => {
     return (
         <>
-            <Container fluid className='text-dark px-4' style={{ backgroundColor: '#D5F0F0' }}>
+            <Container fluid className='text-dark px-4 green'>
                 <Container className='px-5'>
-                    <p className='  mt-5 p-1 display-6'>Specifications</p><hr></hr>
+                    <p className='  mt-5 p-1 display-6 ms-5'>Specifications</p><hr></hr>
                     <Row className='border-bottom-lite'>
                         <Col>
-                            <p className='fs-5'>
+                            <p className='fs-5 ms-5'>
                                 <b>STRUCTURE</b>
                             </p>
                         </Col>
@@ -17,13 +17,13 @@ const SpecificationEllen = () => {
 
                             <div className='d-flex flex-row justify-content-start align-items-start '>
                                 <div >
-                                    <Image src="/images/Group 49424.svg " className="m-2" style={{ width: '18px' }} alt="..."></Image>
+                                    <Image src="/images/specification_img.svg " className="m-2" style={{ width: '18px' }} alt="..."></Image>
                                 </div>
                                 <p>RCC framed structure</p>
                             </div>
                             <div className='d-flex flex-row justify-content-start align-items-start '>
                                 <div >
-                                    <Image src="/images/Group 49424.svg " className="m-2" style={{ width: '18px' }} alt="..."></Image>
+                                    <Image src="/images/specification_img.svg" className="m-2" style={{ width: '18px' }} alt="..."></Image>
                                 </div>
                                 <p>
                                     Concrete block masonry, wire cut clay bricks</p>
@@ -33,18 +33,15 @@ const SpecificationEllen = () => {
 
                     <Row className='border-bottom-lite'>
                         <Col >
-                            <p className='fs-5'>
+                            <p className='fs-5 ms-5'>
                                 <b>FLOORING</b>
                             </p>
                         </Col>
                         <Col className='d-flex flex-column '>
 
-
-
-
                             <div className='d-flex flex-row justify-content-start align-items-start '>
                                 <div >
-                                    <Image src="/images/Group 49424.svg " className="m-2" style={{ width: '18px' }} alt="..."></Image>
+                                    <Image src="/images/specification_img.svg " className="m-2" style={{ width: '18px' }} alt="..."></Image>
                                 </div>
 
                                 <p className='fs-5'>
@@ -59,7 +56,7 @@ const SpecificationEllen = () => {
 
                     <Row className='border-bottom-lite'>
                         <Col>
-                            <p className='fs-5'>
+                            <p className='fs-5 ms-5'>
                                 <b>PAINTING</b>
                             </p>
                         </Col>
@@ -68,7 +65,7 @@ const SpecificationEllen = () => {
 
                             <div className='d-flex flex-row justify-content-start align-items-start '>
                                 <div >
-                                    <Image src="/images/Group 49424.svg " className="m-2" style={{ width: '18px' }} alt="..."></Image>
+                                    <Image src="/images/specification_img.svg " className="m-2" style={{ width: '18px' }} alt="..."></Image>
                                 </div>
 
                                 <p>
@@ -80,14 +77,14 @@ const SpecificationEllen = () => {
 
                     <Row className='border-bottom-lite'>
                         <Col>
-                            <p className='fs-5'>
+                            <p className='fs-5 ms-5'>
                                 <b>KITCHEN</b>
                             </p>
                         </Col>
                         <Col className='d-flex flex-column fs-5 '>
                             <div className='d-flex flex-row justify-content-start align-items-start '>
                                 <div >
-                                    <Image src="/images/Group 49424.svg " className="m-2" style={{ width: '18px' }} alt="..."></Image>
+                                    <Image src="/images/specification_img.svg " className="m-2" style={{ width: '18px' }} alt="..."></Image>
                                 </div>
 
                                 <p>
@@ -101,29 +98,26 @@ const SpecificationEllen = () => {
 
                     <Row className='border-bottom-lite'>
                         <Col>
-                            <p className='fs-5'>
+                            <p className='fs-5 ms-5'>
                                 <b>DOORS</b>
                             </p>
                         </Col>
 
-                        <Col className='d-flex flex-column fs-5 '>
+                        <Col className='d-flex flex-column fs-5 'sm={6}>
                             <div className='d-flex flex-row justify-content-start align-items-start '>
                                 <div >
-                                    <Image src="/images/Group 49424.svg " className="m-2" style={{ width: '18px' }} alt="..."></Image>
+                                    <Image src="/images/specification_img.svg " className="m-2" style={{ width: '18px' }} alt="..."></Image>
                                 </div>
 
                                 <p>
                                     All doors with veneer on both sides and teak wood framing. Hardware used will be Godrej or equivalent. UPVC/High density aluminum windows</p>
                             </div>
-
                         </Col>
                     </Row>
 
-
-
                     <Row className=' border-bottom-lite'>
                         <Col>
-                            <p className='fs-5'>
+                            <p className='fs-5 ms-5'>
                                 <b>ELECTRICAL</b>
                             </p>
                         </Col>
@@ -131,7 +125,7 @@ const SpecificationEllen = () => {
                         <Col className='d-flex flex-column fs-5 '>
                             <div className='d-flex flex-row justify-content-start align-items-start '>
                                 <div >
-                                    <Image src="/images/Group 49424.svg " className="m-2" style={{ width: '18px' }} alt="..."></Image>
+                                    <Image src="/images/specification_img.svg " className="m-2" style={{ width: '18px' }} alt="..."></Image>
                                 </div>
                                 <div className='fs-5 mb-0'>
                                     <p className='fs-5 mb-0'>
@@ -147,7 +141,7 @@ const SpecificationEllen = () => {
 
                     <Row className='border-bottom-lite'>
                         <Col>
-                            <p className='fs-5'>
+                            <p className='fs-5 ms-5'>
                                 <b>SECURITY</b>
                             </p>
                         </Col>
@@ -155,7 +149,7 @@ const SpecificationEllen = () => {
 
                             <div className='d-flex flex-row justify-content-start align-items-start '>
                                 <div >
-                                    <Image src="/images/Group 49424.svg " className="m-2" style={{ width: '18px' }} alt="..."></Image>
+                                    <Image src="/images/specification_img.svg " className="m-2" style={{ width: '18px' }} alt="..."></Image>
                                 </div>
                                 <div className='fs-5 mb-0'>
 
@@ -172,14 +166,14 @@ const SpecificationEllen = () => {
 
                     <Row className='border-bottom-lite'>
                         <Col>
-                            <p className='fs-5'>
+                            <p className='fs-5 ms-5'>
                                 <b>GYM</b>
                             </p>
                         </Col>
-                        <Col className='d-flex flex-column fs-5 '>
+                        <Col className='d-flex flex-column fs-5 'sm={6}>
                             <div className='d-flex flex-row justify-content-start align-items-start '>
                                 <div >
-                                    <Image src="/images/Group 49424.svg " className="m-2" style={{ width: '18px' }} alt="..."></Image>
+                                    <Image src="/images/specification_img.svg " className="m-2" style={{ width: '18px' }} alt="..."></Image>
                                 </div>
                                 <p className='fs-5'>- Air Conditioned Gym with essential equipments</p>
                             </div>
@@ -188,14 +182,14 @@ const SpecificationEllen = () => {
 
                     <Row className=''>
                         <Col>
-                            <p className='fs-5'>
+                            <p className='fs-5 ms-5'>
                                 <b>MISCELLANEOUS</b>
                             </p>
                         </Col>
                         <Col className='d-flex flex-column fs-5 '>
                             <div className='d-flex flex-row justify-content-start align-items-start '>
                                 <div >
-                                    <Image src="/images/Group 49424.svg " className="m-2" style={{ width: '18px' }} alt="..."></Image>
+                                    <Image src="/images/specification_img.svg " className="m-2" style={{ width: '18px' }} alt="..."></Image>
                                 </div>
                                 <div className='fs-5 mb-0'>
                                     <p className='fs-5 mb-0'>- Rain water harvesting in multiple areas. </p>

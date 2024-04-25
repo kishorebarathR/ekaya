@@ -5,14 +5,14 @@ const FeaturesTakshavi = () => {
     return (
         <>
 
-            <Container fluid className='text-dark px-4' style={{ backgroundColor: '#ABD2D3' }}>
+            <Container fluid className='text-dark px-4 wbg-green-dark '>
                 <Container className='px-5'>
                     <Col className='border-bottom'>
-                        <p className=' p-1 display-6'>Features</p>
+                        <p className=' p-1 display-6 ms-5'>Features</p>
                     </Col>
                     <Row className='border-bottom'>
                         <Col>
-                            <p className='fs-5 '>
+                            <p className='fs-5 ms-5'>
                                 <b>
                                     SANITARY & PLUMBING
                                 </b>
@@ -21,7 +21,7 @@ const FeaturesTakshavi = () => {
                         <Col className='d-flex flex-column fs-5 '>
                             <div className='d-flex flex-row justify-content-start align-items-start '>
                                 <div >
-                                    <Image src="/images/Ellipse 147.svg  " className="m-2" style={{ width: '8px' }} alt="..."></Image>
+                                  <p></p>  <Image src="/images/Ellipse 147.svg  " className="m-2 " style={{ width: '8px' }} alt="..."></Image>
                                 </div>
                                 <p>CP Fittings: Jacquar or equvivalent.</p>
                             </div>
@@ -37,7 +37,7 @@ const FeaturesTakshavi = () => {
 
                     <Row className='border-bottom'>
                         <Col>
-                            <p className='fs-5'>
+                            <p className='fs-5 ms-5'>
                                 <b>ELECTRICAL</b>
                             </p>
                         </Col>
@@ -57,7 +57,7 @@ const FeaturesTakshavi = () => {
 
                     <Row className='border-bottom'>
                         <Col>
-                            <p className='fs-5'>
+                            <p className='fs-5 ms-5'>
                                 <b>AIR CONDITIONG</b>
                             </p>
                         </Col>
@@ -74,7 +74,7 @@ const FeaturesTakshavi = () => {
 
                     <Row className='border-bottom'>
                         <Col>
-                            <p className='fs-5'>
+                            <p className='fs-5 ms-5'>
                                 <b>TELEPHONE POINTS</b>
                             </p>
                         </Col>
@@ -99,7 +99,7 @@ const FeaturesTakshavi = () => {
 
                     <Row className='border-bottom '>
                         <Col>
-                            <p className='fs-5'>
+                            <p className='fs-5 ms-5'>
                                 <b>TELEPHONE POINTS</b>
                             </p>
                         </Col>
@@ -117,7 +117,7 @@ const FeaturesTakshavi = () => {
                     </Row>
                     <Row className='border-bottom'>
                         <Col>
-                            <p className='fs-5'>
+                            <p className='fs-5 ms-5'>
                                 <b>D.G. KIRLOSKAR MAKE</b>
                             </p>
                         </Col>
@@ -139,7 +139,7 @@ const FeaturesTakshavi = () => {
 
                     <Row className='border-bottom'>
                         <Col>
-                            <p className='fs-5'>
+                            <p className='fs-5 ms-5'>
                                 <b>ELEVATORS</b>
                             </p>
                         </Col>
@@ -155,7 +155,7 @@ const FeaturesTakshavi = () => {
 
                     <Row className='border-bottom'>
                         <Col>
-                            <p className='fs-5'>
+                            <p className='fs-5 ms-5'>
                                 <b>SECURITY</b>
                             </p>
                         </Col>
