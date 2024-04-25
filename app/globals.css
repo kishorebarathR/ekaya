@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap'); */
+/* @import url(https://db.onlinewebfonts.com/c/c4d8819fda4c3fd79e36cedcc8d422bb?family=Halyard+Display); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *, body {
-    font-family: "Arvo", serif;
-    font-weight: 400;
-   
-    font-style: normal;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   }
 
 .wbg-green{
@@ -18,7 +18,11 @@
   background-color: #ABD2D3;
 }
 .wbg-dark-green{
-  background-color: #5CA2B0;
+  background-color: #5CA2B0 !important;
+  
+}
+.wbg-txt-green{
+  color: #5CA2B0 !important;
   
 }
 .green{
@@ -134,3 +138,12 @@
   top: 50%;
   right: 0;
 }
+
+.custom-input {
+  border-radius: 0;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  
+}
+
