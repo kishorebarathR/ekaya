@@ -18,7 +18,11 @@
   background-color: #ABD2D3;
 }
 .wbg-dark-green{
-  background-color: #5CA2B0;
+  background-color: #5CA2B0 !important;
+  
+}
+.wbg-txt-green{
+  color: #5CA2B0 !important;
   
 }
 .green{
