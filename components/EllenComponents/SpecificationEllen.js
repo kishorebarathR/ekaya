@@ -9,11 +9,11 @@ const SpecificationEllen = () => {
                     <p className='  mt-5 p-1 display-6 ms-5'>Specifications</p><hr></hr>
                     <Row className='border-bottom-lite'>
                         <Col>
-                            <p className='fs-5 ms-5'>
+                            <p className='fs-6 ms-5'>
                                 <b>STRUCTURE</b>
                             </p>
                         </Col>
-                        <Col className='d-flex flex-column fs-5 '>
+                        <Col className='d-flex flex-column fs-6 '>
 
                             <div className='d-flex flex-row justify-content-start align-items-start '>
                                 <div >
@@ -33,7 +33,7 @@ const SpecificationEllen = () => {
 
                     <Row className='border-bottom-lite'>
                         <Col >
-                            <p className='fs-5 ms-5'>
+                            <p className='fs-6 ms-5'>
                                 <b>FLOORING</b>
                             </p>
                         </Col>
@@ -44,7 +44,7 @@ const SpecificationEllen = () => {
                                     <Image src="/images/specification_img.svg " className="m-2" style={{ width: '18px' }} alt="..."></Image>
                                 </div>
 
-                                <p className='fs-5'>
+                                <p className='fs-6'>
                                     Lift lobbies and wall cladding - marble Living and dining - marble Bedrooms - wooden laminate Master bedroom -wooden laminate Kitchen - Porcelene tile Balcony - Antiskid vetrified tiles. Toilet – Anti skid tile
 
                                 </p>
@@ -56,12 +56,12 @@ const SpecificationEllen = () => {
 
                     <Row className='border-bottom-lite'>
                         <Col>
-                            <p className='fs-5 ms-5'>
+                            <p className='fs-6 ms-5'>
                                 <b>PAINTING</b>
                             </p>
                         </Col>
 
-                        <Col className='d-flex flex-column fs-5 '>
+                        <Col className='d-flex flex-column fs-6 '>
 
                             <div className='d-flex flex-row justify-content-start align-items-start '>
                                 <div >
@@ -77,11 +77,11 @@ const SpecificationEllen = () => {
 
                     <Row className='border-bottom-lite'>
                         <Col>
-                            <p className='fs-5 ms-5'>
+                            <p className='fs-6 ms-5'>
                                 <b>KITCHEN</b>
                             </p>
                         </Col>
-                        <Col className='d-flex flex-column fs-5 '>
+                        <Col className='d-flex flex-column fs-6 '>
                             <div className='d-flex flex-row justify-content-start align-items-start '>
                                 <div >
                                     <Image src="/images/specification_img.svg " className="m-2" style={{ width: '18px' }} alt="..."></Image>
@@ -98,12 +98,12 @@ const SpecificationEllen = () => {
 
                     <Row className='border-bottom-lite'>
                         <Col>
-                            <p className='fs-5 ms-5'>
+                            <p className='fs-6 ms-5'>
                                 <b>DOORS</b>
                             </p>
                         </Col>
 
-                        <Col className='d-flex flex-column fs-5 'sm={6}>
+                        <Col className='d-flex flex-column fs-6 'sm={6}>
                             <div className='d-flex flex-row justify-content-start align-items-start '>
                                 <div >
                                     <Image src="/images/specification_img.svg " className="m-2" style={{ width: '18px' }} alt="..."></Image>
@@ -117,21 +117,21 @@ const SpecificationEllen = () => {
 
                     <Row className=' border-bottom-lite'>
                         <Col>
-                            <p className='fs-5 ms-5'>
+                            <p className='fs-6 ms-5'>
                                 <b>ELECTRICAL</b>
                             </p>
                         </Col>
 
-                        <Col className='d-flex flex-column fs-5 '>
+                        <Col className='d-flex flex-column fs-6 '>
                             <div className='d-flex flex-row justify-content-start align-items-start '>
                                 <div >
                                     <Image src="/images/specification_img.svg " className="m-2" style={{ width: '18px' }} alt="..."></Image>
                                 </div>
-                                <div className='fs-5 mb-0'>
-                                    <p className='fs-5 mb-0'>
+                                <div className='fs-6 mb-0'>
+                                    <p className='fs-6 mb-0'>
                                         - 100% ,24 hour sound proof generator power back up for all apartments</p>
-                                    <p className='fs-5 mb-0'> - Elevator - Schindler, KONE or equivalent with power back up</p>
-                                    <p className='fs-5 mb-0'> - Switches - Anchor , LeGrand or equivalent. Telephone points in all bedrooms and living areas.</p>
+                                    <p className='fs-6 mb-0'> - Elevator - Schindler, KONE or equivalent with power back up</p>
+                                    <p className='fs-6 mb-0'> - Switches - Anchor , LeGrand or equivalent. Telephone points in all bedrooms and living areas.</p>
                                 </div>
                             </div>
 
@@ -141,21 +141,21 @@ const SpecificationEllen = () => {
 
                     <Row className='border-bottom-lite'>
                         <Col>
-                            <p className='fs-5 ms-5'>
+                            <p className='fs-6 ms-5'>
                                 <b>SECURITY</b>
                             </p>
                         </Col>
-                        <Col className='d-flex flex-column fs-5 '>
+                        <Col className='d-flex flex-column fs-6 '>
 
                             <div className='d-flex flex-row justify-content-start align-items-start '>
                                 <div >
                                     <Image src="/images/specification_img.svg " className="m-2" style={{ width: '18px' }} alt="..."></Image>
                                 </div>
-                                <div className='fs-5 mb-0'>
+                                <div className='fs-6 mb-0'>
 
-                                    <p className='fs-5 mb-0'> - Biometric locks for all main doors</p>
-                                    <p className='fs-5 mb-0'>  - Yale or equivalent - CCTV surveillance in common areas</p>
-                                    <p className='fs-5 mb-0'>- 24 Hour security</p>
+                                    <p className='fs-6 mb-0'> - Biometric locks for all main doors</p>
+                                    <p className='fs-6 mb-0'>  - Yale or equivalent - CCTV surveillance in common areas</p>
+                                    <p className='fs-6 mb-0'>- 24 Hour security</p>
                                 </div>
 
                             </div>
@@ -166,39 +166,39 @@ const SpecificationEllen = () => {
 
                     <Row className='border-bottom-lite'>
                         <Col>
-                            <p className='fs-5 ms-5'>
+                            <p className='fs-6 ms-5'>
                                 <b>GYM</b>
                             </p>
                         </Col>
-                        <Col className='d-flex flex-column fs-5 'sm={6}>
+                        <Col className='d-flex flex-column fs-6 'sm={6}>
                             <div className='d-flex flex-row justify-content-start align-items-start '>
                                 <div >
                                     <Image src="/images/specification_img.svg " className="m-2" style={{ width: '18px' }} alt="..."></Image>
                                 </div>
-                                <p className='fs-5'>- Air Conditioned Gym with essential equipments</p>
+                                <p className='fs-6'>- Air Conditioned Gym with essential equipments</p>
                             </div>
                         </Col>
                     </Row>
 
                     <Row className=''>
                         <Col>
-                            <p className='fs-5 ms-5'>
+                            <p className='fs-6 ms-5'>
                                 <b>MISCELLANEOUS</b>
                             </p>
                         </Col>
-                        <Col className='d-flex flex-column fs-5 '>
+                        <Col className='d-flex flex-column fs-6 '>
                             <div className='d-flex flex-row justify-content-start align-items-start '>
                                 <div >
                                     <Image src="/images/specification_img.svg " className="m-2" style={{ width: '18px' }} alt="..."></Image>
                                 </div>
-                                <div className='fs-5 mb-0'>
-                                    <p className='fs-5 mb-0'>- Rain water harvesting in multiple areas. </p>
-                                    <p className='fs-5 mb-0'> - Borewells</p>
-                                    <p className='fs-5 mb-0'>  - Landscaped entrance area</p>
-                                    <p className='fs-5 mb-0'> - Water softener</p>
-                                    <p className='fs-5 mb-0'> - Effluent treatment plant</p>
-                                    <p className='fs-5 mb-0'> - Multiple hose points in parking areas</p>
-                                    <p className='fs-5'>  - Biometric locks for lobby doors</p>
+                                <div className='fs-6 mb-0'>
+                                    <p className='fs-6 mb-0'>- Rain water harvesting in multiple areas. </p>
+                                    <p className='fs-6 mb-0'> - Borewells</p>
+                                    <p className='fs-6 mb-0'>  - Landscaped entrance area</p>
+                                    <p className='fs-6 mb-0'> - Water softener</p>
+                                    <p className='fs-6 mb-0'> - Effluent treatment plant</p>
+                                    <p className='fs-6 mb-0'> - Multiple hose points in parking areas</p>
+                                    <p className='fs-6'>  - Biometric locks for lobby doors</p>
                                 </div>
                             </div>
                         </Col>
