@@ -7,14 +7,14 @@ const Specifications = () => {
 
             <Container fluid className='text-dark px-4 green'>
                 <Container className='px-5'>
-                <p className='  mt-5 p-1 display-6 ms-5'>Specifications</p><hr></hr>
+                <p className='  mt-5 p-1 display-6 ms-3'>Specifications</p><hr></hr>
                     <Row className='border-bottom-lite '>
                         <Col >
-                            <p className='fs-5 ms-5'>
+                            <p className='fs-6 ms-5'>
                                 <b>Structure</b>
                             </p>
                         </Col>
-                        <Col className='d-flex flex-column fs-5 '>
+                        <Col className='d-flex flex-column fs-6 '>
 
                             <div className='d-flex flex-row justify-content-start align-items-start '>
                                 <div >
@@ -34,7 +34,7 @@ const Specifications = () => {
 
                     <Row className='border-bottom-lite'>
                         <Col>
-                            <p className='fs-5 ms-5'>
+                            <p className='fs-6 ms-5'>
                                 <b>Finishes</b>
                             </p>
                         </Col>
@@ -46,7 +46,7 @@ const Specifications = () => {
                                 <div >
                                     <Image src="/images/specification_img.svg " className="m-2" style={{ width: '18px' }} alt="..."></Image>
                                 </div>
-                                <p className='fs-5'>
+                                <p className='fs-6'>
                                     Vitrified Flooring with Marble Finish.</p>
                             </div>
                             <div className='d-flex flex-row justify-content-start align-items-start '>
@@ -54,7 +54,7 @@ const Specifications = () => {
                                     <Image src="/images/specification_img.svg " className="m-2" style={{ width: '18px' }} alt="..."></Image>
                                 </div>
 
-                                <p className='fs-5'>
+                                <p className='fs-6'>
                                     Oil bound distemper paint for Ceiling and Walls.  </p>
                             </div>
 
@@ -64,7 +64,7 @@ const Specifications = () => {
                                     <Image src="/images/specification_img.svg " className="m-2" style={{ width: '18px' }} alt="..."></Image>
                                 </div>
 
-                                <p className='fs-5'>
+                                <p className='fs-6'>
                                     Wooden Flooring and Tile Skirting.</p>
                             </div>
                             <div className='d-flex flex-row justify-content-start align-items-start '>
@@ -72,7 +72,7 @@ const Specifications = () => {
                                     <Image src="/images/specification_img.svg " className="m-2" style={{ width: '18px' }} alt="..."></Image>
                                 </div>
 
-                                <p className='fs-5'>
+                                <p className='fs-6'>
                                     Oil bound distemper paint for Ceiling and Walls.  </p>
                             </div>
 
@@ -84,14 +84,14 @@ const Specifications = () => {
                                     <Image src="/images/specification_img.svg " className="m-2" style={{ width: '18px' }} alt="..."></Image>
                                 </div>
 
-                                <p className='fs-5'>
+                                <p className='fs-6'>
                                     Vitrified flooring with Tile Skirting.</p>
                             </div>
                             <div className='d-flex flex-row justify-content-start align-items-start '>
                                 <div >
                                     <Image src="/images/specification_img.svg " className="m-2" style={{ width: '18px' }} alt="..."></Image>
                                 </div>
-                                <p className='fs-5'>
+                                <p className='fs-6'>
                                     Oil bound distemper paint for Ceiling and Walls.  </p>
                             </div>
                         </Col>
@@ -100,12 +100,12 @@ const Specifications = () => {
 
                     <Row className='border-bottom-lite'>
                         <Col >
-                            <p className='fs-5 ms-5'>
+                            <p className='fs-6 ms-5'>
                                 <b>Toilets</b>
                             </p>
                         </Col>
 
-                        <Col className='d-flex flex-column fs-5 'sm={6}>
+                        <Col className='d-flex flex-column fs-6 'sm={6}>
                             <div className='d-flex flex-row justify-content-start align-items-start '>
                                 <div >
                                     <Image src="/images/specification_img.svg " className="m-2" style={{ width: '18px' }} alt="..."></Image>
@@ -134,11 +134,11 @@ const Specifications = () => {
 
                     <Row className='border-bottom-lite'>
                         <Col>
-                            <p className='fs-5 ms-5'>
+                            <p className='fs-6 ms-5'>
                                 <b>Kitchen</b>
                             </p>
                         </Col>
-                        <Col className='d-flex flex-column fs-5 'sm={6}>
+                        <Col className='d-flex flex-column fs-6 'sm={6}>
                             <div className='d-flex flex-row justify-content-start align-items-start '>
                                 <div >
                                     <Image src="/images/specification_img.svg" className="m-2" style={{ width: '18px' }} alt="..."></Image>
@@ -172,7 +172,7 @@ const Specifications = () => {
                                 <div >
                                     <Image src="/images/specification_img.svg " className="m-2" style={{ width: '18px' }} alt="..."></Image>
                                 </div>
-                                <p>
+                                <p >
                                     2 feet wide 19 mm thick Granite counter and SS Sink with Drain board.</p>
 
                             </div>
@@ -188,12 +188,12 @@ const Specifications = () => {
 
                     <Row className='border-bottom-lite'>
                         <Col>
-                            <p className='fs-5 ms-5'>
+                            <p className='fs-6 ms-5'>
                                 <b>Balconies/Utilities</b>
                             </p>
                         </Col>
 
-                        <Col className='d-flex flex-column fs-5 '>
+                        <Col className='d-flex flex-column fs-6 '>
                             <div className='d-flex flex-row justify-content-start align-items-start '>
                                 <div >
                                     <Image src="/images/specification_img.svg " className="m-2" style={{ width: '18px' }} alt="..."></Image>
@@ -232,12 +232,12 @@ const Specifications = () => {
 
                     <Row className=' border-bottom-lite'>
                         <Col>
-                            <p className='fs-5 ms-5'>
+                            <p className='fs-6 ms-5'>
                                 <b>Common Staircase</b>
                             </p>
                         </Col>
 
-                        <Col className='d-flex flex-column fs-5 '>
+                        <Col className='d-flex flex-column fs-6 '>
                             <div className='d-flex flex-row justify-content-start align-items-start '>
                                 <div >
                                     <Image src="/images/specification_img.svg " className="m-2" style={{ width: '18px' }} alt="..."></Image>
@@ -269,11 +269,11 @@ const Specifications = () => {
 
                     <Row className='border-bottom-lite'>
                         <Col>
-                            <p className='fs-5 ms-5'>
+                            <p className='fs-6 ms-5'>
                                 <b>Common Areas</b>
                             </p>
                         </Col>
-                        <Col className='d-flex flex-column fs-5 '>
+                        <Col className='d-flex flex-column fs-6 '>
 
                             <div className='d-flex flex-row justify-content-start align-items-start '>
                                 <div >
@@ -314,11 +314,11 @@ const Specifications = () => {
 
                     <Row className='border-bottom-lite'>
                         <Col>
-                        <p className='fs-5 ms-5'>
+                        <p className='fs-6 ms-5'>
                             <b>Joinery</b>
                             </p>
                             </Col>
-                        <Col className='d-flex flex-column fs-5 '>
+                        <Col className='d-flex flex-column fs-6 '>
 
                             <p className=''>
                                 <b>Main Door</b>
@@ -328,7 +328,7 @@ const Specifications = () => {
                                 <div >
                                     <Image src="/images/specification_img.svg " className="m-2" style={{ width: '18px' }} alt="..."></Image>
                                 </div>
-                                <p className='fs-5'> Teak wood frame andTeak wood shutter with melamine polish.</p>
+                                <p className='fs-6'> Teak wood frame andTeak wood shutter with melamine polish.</p>
                             </div>
 
                             <p className=''>
@@ -339,7 +339,7 @@ const Specifications = () => {
                                 <div >
                                     <Image src="/images/specification_img.svg " className="m-2" style={{ width: '18px' }} alt="..."></Image>
                                 </div>
-                                <p className='fs-5'>Hard wood frame with both side Masonite skin shutter with paint.</p>
+                                <p className='fs-6'>Hard wood frame with both side Masonite skin shutter with paint.</p>
                             </div>
 
                            
@@ -353,13 +353,13 @@ const Specifications = () => {
                                 <div >
                                     <Image src="/images/specification_img.svg" className="m-2" style={{ width: '18px' }} alt="..."></Image>
                                 </div>
-                                <p className='fs-5'>  Hard wood frame with Masonite skin shutter on the external side and laminated on the internal side.</p>
+                                <p className='fs-6'>  Hard wood frame with Masonite skin shutter on the external side and laminated on the internal side.</p>
                             </div>
                             <div className='d-flex flex-row justify-content-start align-items-start '>
                                 <div >
                                     <Image src="/images/specification_img.svg " className="m-2" style={{ width: '18px' }} alt="..."></Image>
                                 </div>
-                                <p className='fs-5'>UPVC glazed slidingWindows.</p>
+                                <p className='fs-6'>UPVC glazed slidingWindows.</p>
                             </div>
                         </Col>
                     </Row>

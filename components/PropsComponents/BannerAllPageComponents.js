@@ -42,12 +42,13 @@ const BannerAllPageComponents = ({backgroundImage}) => {
             {/* <Image src={`url(${backgroundImage.url})`} alt='' fluid className='img-fluid w-100 h-100 '/> */}
             {/* <Image src={`${backgroundImage.url}`} alt='' fluid className='img-fluid w-100 h-100' /> */}
 
-            <Col className="position-absolute end-0 bottom-0 ">
-                {/* <h1 className="fs-21 fw-bold">{bannerHeading}</h1> */}
-                <Button className="px-5 py-3 bg-white text-black border-0 rounded-0">
+            {/* <Col className="position-absolute start-50 ms-5 bottom-0 ">
+              
+                <Button className="px-5 text-center py-2 bg-white text-black border-0 rounded-0">
                     Contact Us
                 </Button>
             </Col>
+           */}
         </div>
     </>
     )

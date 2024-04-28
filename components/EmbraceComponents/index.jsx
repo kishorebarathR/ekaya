@@ -7,6 +7,8 @@ import Modern from './Modern'
 import Specifications from './Specifications'
 import Features from './Features'
 import Amenities from './Amenities'
+import EmbraceTab from './EmbraceTab'
+import Form from './Form'
 
 const index = () => {
   return (
@@ -17,6 +19,9 @@ const index = () => {
             <Specifications />
             <Features />
             <Amenities/>
+            <EmbraceTab/>
+            <Form/>
+
            
          
     <Footer />

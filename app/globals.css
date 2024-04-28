@@ -2,7 +2,7 @@
 /* @import url(https://db.onlinewebfonts.com/c/c4d8819fda4c3fd79e36cedcc8d422bb?family=Halyard+Display); */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *, body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif !important;
   font-weight: 400;
   font-style: normal;
   }
@@ -43,14 +43,25 @@
 .light-gray{
   background-color: #EFF1F3;
 }
+.gray{
+  color: #c3cacc;
+}
 
 .btn-color-home{
-  color: #6BAAB7 ;
-  background-color: white;
+  color: #6BAAB7 !important;
+  background-color: white ;
   border: none; 
   
 }
 /* propertiesoverview btn-hover */
+.hover-contact{
+  background-color:white !important;
+  color:  #6BAAB7 !important;
+}
+.hover-contact:hover{
+  background-color:#46566D !important;
+  color:white !important;
+}
 .btn-color{
   color:white;
   background-color: #6BAAB7;
@@ -64,26 +75,14 @@
   
 }
 /* AboutEkaya btn-hover */
-.btn-colors{
-  color:white;
-  background-color: black;
-  border-color: #B3E5D3;
+.actives{
+  background-color: black !important;
+  color: white !important;
 }
 
-.btn-colors:hover{
-  color: black;
-  background-color: white;
-  
-}
-.btns-colors{
-  color:black;
-  background-color: white;
-  border-color: #B3E5D3;  
-}
-
-.btns-colors:hover{
-  color:#FFFFFF;
-  background-color: black;  
+.dark{
+  background: black !important;
+  color: white !important;
 }
 
 .color-footer{
@@ -100,7 +99,7 @@
 .border-bottom-lite {
   border-bottom:1px solid rgb(142, 140, 140) !important;
 }
-/* MODREN CONTENT MIDDLEMEDIA QUERY WANT TO WRITE */
+/* MODREN CONTENT  */
  .middle {
   display: flex;
   flex-direction: column;
@@ -139,11 +138,103 @@
   right: 0;
 }
 
-.custom-input {
+form .custom-input {
+
   border-radius: 0;
+  border-color: green;
+}
+/* Home page tab component */
+.custom-tabs .nav-link {
+  border-bottom: none !important;
+  color: #5CA2B0;
+  border-top: 0;
+}
+
+.custom-tabs .nav-link.active {
+  border-bottom: 2px solid #6BAAB7 !important;
   border-top: 0;
   border-right: 0;
   border-left: 0;
-  
 }
+.border-bottom-only {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-radius: 0;
+  border-bottom-color: black; 
+}
+/* HOME PAGE BUTTON COLOR */
+.black{
+  background-color: black !important;
+  color: white !important;
+}
+
+
+
+/* Embrace tab component */
+.custom-tab .nav-link.active {
+  background-color: #5CA2B0 !important;
+  color: white;
+  border: none ;
+}
+
+
+
+
+
+/* carsole home */
+
+
+.talkbubble {
+  /* width: 120px; */
+  /* height: 80px; */
+  background: #abd2d3;
+  position: relative;
+
+  padding: 10px;
+}
+
+.talkbubble:before {
+  content: "";
+  position: absolute;
+  left: 100%; /* Changed from right: 100% */
+  top: 26px;
+  width: 0;
+  height: 0;
+  border-top: 13px solid transparent;
+  border-left: 26px solid #abd2d3; /* Changed from border-right */
+  border-bottom: 13px solid transparent;
+}
+.border-bottom-green {
+  border-bottom: 1px solid #5ca2b0 !important;
+}
+.border-bottom-white {
+  border-bottom: 1px solid #ece8e8 !important;
+}
+.right-arrow {
+  color: #5ca2b0 !important;
+  cursor: pointer;
+}
+.left-arrow {
+  color: #d1cfcf;
+  cursor: pointer;
+}
+.amora-fluid {
+  margin-right: 200px !important;
+}
+.border-green {
+  background: #ffffff 0% 0% no-repeat padding-box !important;
+  border: 1px solid #5ca2b0 !important;
+  border-radius: 4px !important;
+  opacity: 1 !important;
+
+}
+
+.accordion-button.collapsed {
+  color: white;
+  background: black;
+}
+
+
+
 

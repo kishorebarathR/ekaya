@@ -1,18 +1,18 @@
 'use client'
 import React from 'react'
-import { Row, Col,Container } from 'react-bootstrap'
+import { Row, Col,Container ,Image} from 'react-bootstrap'
 import BannerAllPageComponents from '../PropsComponents/BannerAllPageComponents'
 
 const HomeBanner = () => {
   const bgImage = {
-    url: '/images/home_banner.jpg'
+    url: '/images/Homebanner1.jpg'
   }
   return (
     <>
 
      
         <BannerAllPageComponents backgroundImage={bgImage} />
-       
+     
     
 
     </>

@@ -9,7 +9,7 @@ const Amenities = () => {
                 <Container>
                     <Row >
                     <Col><p className='justify-content-center mx-4  display-6 ms-5 px-3'><b> Amenities</b></p></Col>
-                    <Col className='d-flex flex-column fs-5 '>
+                    <Col className='d-flex flex-column fs-6 '>
                     <div className='d-flex flex-row justify-content-start align-items-start '>
                                 <div >
                                     <Image src="/images/Ellipse 147.svg  " className="m-2" style={{ width: '8px' }} alt="..."></Image>

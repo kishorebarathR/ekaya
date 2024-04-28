@@ -9,11 +9,11 @@ const SpecificationTakshavi = () => {
                     <p className='  mt-5 p-1 display-6 border-bottom-lite ms-5'>Specifications</p>
                     <Row className='border-bottom-lite'>
                         <Col>
-                            <p className='fs-5 ms-5'>
+                            <p className='fs-6 ms-5'>
                                 <b>Structure</b>
                             </p>
                         </Col>
-                        <Col className='d-flex flex-column fs-5 '>
+                        <Col className='d-flex flex-column fs-6 '>
 
                             <div className='d-flex flex-row justify-content-start align-items-start '>
                                 <div >
@@ -33,7 +33,7 @@ const SpecificationTakshavi = () => {
 
                     <Row className='border-bottom-lite'>
                         <Col>
-                            <p className='fs-5 ms-5'>
+                            <p className='fs-6 ms-5'>
                                 <b>Finishes</b>
                             </p>
                         </Col>
@@ -45,7 +45,7 @@ const SpecificationTakshavi = () => {
                                 <div >
                                     <Image src="/images/specification_img.svg " className="m-2" style={{ width: '18px' }} alt="..."></Image>
                                 </div>
-                                <p className='fs-5'>
+                                <p className='fs-6'>
                                 Creanza vitrified tiles</p>
                             </div>
                             <div className='d-flex flex-row justify-content-start align-items-start '>
@@ -53,7 +53,7 @@ const SpecificationTakshavi = () => {
                                     <Image src="/images/specification_img.svg " className="m-2" style={{ width: '18px' }} alt="..."></Image>
                                 </div>
 
-                                <p className='fs-5'>
+                                <p className='fs-6'>
                                 Premium emulsion paint for ceiling and walls. </p>
                             </div>
 
@@ -63,7 +63,7 @@ const SpecificationTakshavi = () => {
                                     <Image src="/images/specification_img.svg " className="m-2" style={{ width: '18px' }} alt="..."></Image>
                                 </div>
 
-                                <p className='fs-5'>
+                                <p className='fs-6'>
                                 Creanza vitrified flooring and skirting.</p>
                             </div>
                             <div className='d-flex flex-row justify-content-start align-items-start '>
@@ -71,7 +71,7 @@ const SpecificationTakshavi = () => {
                                     <Image src="/images/specification_img.svg" className="m-2" style={{ width: '18px' }} alt="..."></Image>
                                 </div>
 
-                                <p className='fs-5'>
+                                <p className='fs-6'>
                                 Premium emulsion paint for ceiling and walls.  </p>
                             </div>
 
@@ -83,14 +83,14 @@ const SpecificationTakshavi = () => {
                                     <Image src="/images/specification_img.svg " className="m-2" style={{ width: '18px' }} alt="..."></Image>
                                 </div>
 
-                                <p className='fs-5'>
+                                <p className='fs-6'>
                                 Creanza vitrified flooring and skirting..</p>
                             </div>
                             <div className='d-flex flex-row justify-content-start align-items-start '>
                                 <div >
                                     <Image src="/images/specification_img.svg " className="m-2" style={{ width: '18px' }} alt="..."></Image>
                                 </div>
-                                <p className='fs-5'>
+                                <p className='fs-6'>
                                 Premium emulsion paint for walls and ceiling.</p>
                             </div>
                         </Col>
@@ -99,12 +99,12 @@ const SpecificationTakshavi = () => {
 
                     <Row className='border-bottom-lite'>
                         <Col>
-                            <p className='fs-5 ms-5'>
+                            <p className='fs-6 ms-5'>
                                 <b>Toilets</b>
                             </p>
                         </Col>
 
-                        <Col className='d-flex flex-column fs-5 '>
+                        <Col className='d-flex flex-column fs-6 '>
                            
                             <div className='d-flex flex-row justify-content-start align-items-start '>
                                 <div >
@@ -127,11 +127,11 @@ const SpecificationTakshavi = () => {
 
                     <Row className='border-bottom-lite'>
                         <Col>
-                            <p className='fs-5 ms-5'>
+                            <p className='fs-6 ms-5'>
                                 <b>Kitchen</b>
                             </p>
                         </Col>
-                        <Col className='d-flex flex-column fs-5 '>
+                        <Col className='d-flex flex-column fs-6 '>
                             <div className='d-flex flex-row justify-content-start align-items-start '>
                                 <div >
                                     <Image src="/images/specification_img.svg " className="m-2" style={{ width: '18px' }} alt="..."></Image>
@@ -188,12 +188,12 @@ const SpecificationTakshavi = () => {
 
                     <Row className='border-bottom-lite'>
                         <Col>
-                            <p className='fs-5 ms-5'>
+                            <p className='fs-6 ms-5'>
                                 <b>Balconies/Utilities</b>
                             </p>
                         </Col>
 
-                        <Col className='d-flex flex-column fs-5 '>
+                        <Col className='d-flex flex-column fs-6 '>
                             <div className='d-flex flex-row justify-content-start align-items-start '>
                                 <div >
                                     <Image src="/images/specification_img.svg " className="m-2" style={{ width: '18px' }} alt="..."></Image>
@@ -232,12 +232,12 @@ const SpecificationTakshavi = () => {
 
                     <Row className=' border-bottom-lite'>
                         <Col>
-                            <p className='fs-5 ms-5'>
+                            <p className='fs-6 ms-5'>
                                 <b>Common areas and Staircase</b>
                             </p>
                         </Col>
 
-                        <Col className='d-flex flex-column fs-5 '>
+                        <Col className='d-flex flex-column fs-6 '>
                             <div className='d-flex flex-row justify-content-start align-items-start '>
                                 <div >
                                     <Image src="/images/specification_img.svg " className="m-2" style={{ width: '18px' }} alt="..."></Image>
@@ -271,11 +271,11 @@ const SpecificationTakshavi = () => {
 
                     <Row className=''>
                         <Col>
-                        <p className='fs-5 ms-5'>
+                        <p className='fs-6 ms-5'>
                             <b>Joinery</b>
                             </p>
                             </Col>
-                        <Col className='d-flex flex-column fs-5 '>
+                        <Col className='d-flex flex-column fs-6 '>
 
                             <p className=''>
                                 <b>Main Door</b>
@@ -285,7 +285,7 @@ const SpecificationTakshavi = () => {
                                 <div >
                                     <Image src="/images/specification_img.svg " className="m-2" style={{ width: '18px' }} alt="..."></Image>
                                 </div>
-                                <p className='fs-5'> Main door – Teak wood frame and Teak wood shutter with melamine polish.</p>
+                                <p className='fs-6'> Main door – Teak wood frame and Teak wood shutter with melamine polish.</p>
                             </div>
 
                             <p className=''>
@@ -296,7 +296,7 @@ const SpecificationTakshavi = () => {
                                 <div >
                                     <Image src="/images/specification_img.svg" className="m-2" style={{ width: '18px' }} alt="..."></Image>
                                 </div>
-                                <p className='fs-5'>Hard wood frame with both side Masonite skin shutter with paint.</p>
+                                <p className='fs-6'>Hard wood frame with both side Masonite skin shutter with paint.</p>
                             </div>
 
                            
@@ -310,13 +310,13 @@ const SpecificationTakshavi = () => {
                                 <div >
                                     <Image src="/images/specification_img.svg" className="m-2" style={{ width: '18px' }} alt="..."></Image>
                                 </div>
-                                <p className='fs-5'>  Hard wood frame with Masonite skin shutter on the external side and laminated on the internal side.</p>
+                                <p className='fs-6'>  Hard wood frame with Masonite skin shutter on the external side and laminated on the internal side.</p>
                             </div>
                             <div className='d-flex flex-row justify-content-start align-items-start '>
                                 <div >
                                     <Image src="/images/specification_img.svg " className="m-2" style={{ width: '18px' }} alt="..."></Image>
                                 </div>
-                                <p className='fs-5'>UPVC glazed sliding windows.</p>
+                                <p className='fs-6'>UPVC glazed sliding windows.</p>
                             </div>
                         </Col>
                     </Row>

@@ -1,7 +1,8 @@
 
 import React from 'react'
-import { Row,Col ,Image } from 'react-bootstrap'
+import { Row,Col ,Image ,Container} from 'react-bootstrap'
 import BannerAllPageComponents from '../PropsComponents/BannerAllPageComponents'
+
 
 const AboutBanner = () => {
   const bgImage = {
@@ -10,11 +11,21 @@ const AboutBanner = () => {
   return (
     <>
   <BannerAllPageComponents backgroundImage={bgImage} />
+  
+  <Container>
+  <Row>
+  <Col className="position-absolute start-0 bottom-0">
+             
+             <h1 className=" px-5 ms-5 py-2 text-white display-1 mb-5">
+                <b> Our Story</b>
+             </h1>
+         </Col>
+         </Row>
+
+         </Container>
+  
+
     
-    <Row>
-
-    </Row>
-
     </>
   )
 }

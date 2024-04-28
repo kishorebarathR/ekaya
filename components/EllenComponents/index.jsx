@@ -5,6 +5,8 @@ import EllenBanner from './EllenBanner'
 import EllenPage from './EllenPage'
 import SpecificationEllen from './SpecificationEllen'
 import EllenMap from './EllenMap'
+import EllenTab from './EllenTab'
+import Form from './Form'
 
 const index = () => {
   return (
@@ -13,7 +15,9 @@ const index = () => {
             <EllenBanner />
             <EllenPage />
             <SpecificationEllen/>
-            <EllenMap/>    
+            <EllenMap/>  
+            <EllenTab/>
+            <Form/> 
 
 
            
