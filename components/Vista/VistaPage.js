@@ -140,7 +140,7 @@ const VistaPage = () => {
           {VistaDoMar.map((items, index) => (
             <>
               <Col lg={4} className=" p-4">
-                <img className="h-25 w-25" src={items.svg} />
+                <Image className="h-25 w-25" src={items.svg} />
                 <div className="p-2">
                   <h3 className="mt-3">{items.title}</h3>
                   <p className="fs-6">{items.text}</p>
