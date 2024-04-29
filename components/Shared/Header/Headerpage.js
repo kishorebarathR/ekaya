@@ -16,11 +16,11 @@ const Headerpage = () => {
   };
 
   return (
-    <Container fluid className='position-absolute border-bottom border-secondary '>
+    <Container fluid className='position-absolute border-bottom border-secondary z-3'>
       <Container>
         <Row className="align-items-center mb-3"> 
           <Col lg={1}>
-            <Navbar expand="lg">
+            <Navbar Navbar expand="lg">
               <NavDropdown className='text-light mt-4 ms-5 fs-6' title="Our Project" id="basic-nav-dropdown">
                 <Row className='row d-flex flex-colum '>
                   <Col sm={12} lg={3}>

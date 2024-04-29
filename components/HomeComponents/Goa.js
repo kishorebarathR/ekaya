@@ -36,7 +36,7 @@ const Goa = () => {
                   aria-controls="panelsStayOpen-collapseOne"
                   onClick={toggleCollapse}
                 >
-                  Upcoming Project
+                  Upcoming Project Goa
                   <span className='float-end text-white'>{isCollapsed ? <FaAngleDown size={24} className='display-4' /> : <FaAngleUp size={24} className='display-4' />}</span>
                 </button>
                 <div id="panelsStayOpen-collapseOne" class={`accordion-collapse collapse ${isCollapsed ? '' : 'show'}`}>
@@ -55,7 +55,7 @@ const Goa = () => {
 
               <div class="accordion-item">
                 <button class="btn btn-dark w-100 rounded-0 p-3" type="button" onClick={toggleCollapse1}   data-bs-toggle="collapse"data-bs-target="#open" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                  Completed Project
+                  Completed Project Goa
                   <span className='float-end text-white'>{isCollapsed1 ? <FaAngleDown size={24} className='display-4' /> : <FaAngleUp size={24} className='display-4' />}</span>
                 </button>
                 <div id="open" class="accordion-collapse collapse">
@@ -102,7 +102,7 @@ const Goa = () => {
         </Row>
       </Container>
       <Container>
-        <p className='text-center fs-5 mt-5 wbg-green'>LET’S HEAR FROM OUR CLIENTS</p>
+        <p className='text-center fs-4 mt-5 wbg-green'>LET’S HEAR FROM OUR CLIENTS</p>
         <p className='text-center mx-5 p-4 fs-6  ' style={{ borderBottom: '1px  dotted' }}>“Discovering Ekaya was like finding a hidden gem. The attention to detail and personal touch<br></br> they bring to every aspect of the home-buying experience is truly unparalleled.”</p>
       </Container>
       <Container>

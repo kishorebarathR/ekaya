@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 import { Row, Col, Container, Image, Tabs, Tab } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
 const EmbraceTab = () => {
   const [activeKey, setActiveKey] = useState('home');
 
@@ -19,27 +18,43 @@ const EmbraceTab = () => {
             <Tabs
               activeKey={activeKey}
               onSelect={handleTabSelect}
-              className="mb-3 custom-tabs border-0 rounded-0"
+              className="mb-3 custom-tab border-0 rounded-0"
               style={{ width: '100%' }}
             >
-              <Tab  eventKey="home" title={<span className="tab-title">3D rendered</span>}>
-                <Image src="/images/Tab_IMG.png" className="img-fluid mt-4" alt="3D Rendered Image" />
+              <Tab eventKey="home" title={<span className="tab-title">3D rendered</span>} className='d-flex flex-row'>
+                {activeKey === "home" && (
+                  <>
+                    <Col><Image src="/images/embrace-tab-img1.png" className="img-fluid mt-4" alt="3D Rendered Image" /></Col>
+                    <Col><Image src="/images/embrace-tab-img-2.png" className="img-fluid mt-4" alt="3D Rendered Image" /></Col>
+                  </>
+                )}
               </Tab>
 
               <Tab eventKey="profile" title="Floor plan parking">
-                <Image src="/images/Footer_logo.svg" className="img-fluid mt-4 w-25 mt-3" alt="Floor plan parking" />
+                {activeKey === "profile" && (
+                  <Col><Image src="/images/embrace-floor1.png" className="img-fluid  mt-3" alt="Floor plan parking" /></Col>
+                )}
               </Tab>
-              
+
               <Tab eventKey="about1" title="Floor plan-3 floors">
-                <Image src="/images/Tab_IMG.png" className="img-fluid mt-4" alt="3D Rendered Image" />
+                {activeKey === "about1" && (
+                  <Image src="/images/embrace-floor2.png" className="img-fluid mt-4" alt="Floor plan-3 floors" />
+                )}
               </Tab>
-              
+
               <Tab eventKey="about2" title="Unit floor plan design layout">
-                <Image src="/images/Footer_logo.svg" className="img-fluid mt-4 w-25 mt-3" alt="Floor plan parking" />
+                {activeKey === "about2" && (
+                  <Row className='d-flex flex-row'>
+                    <Col><Image src="/images/embrace-unit1.png" className="img-fluid mt-4  mt-3" alt="Floor plan parking" /></Col>
+                    <Col><Image src="/images/embrace-unit-2.png" className="img-fluid mt-4 " alt="Floor plan parking" /></Col>
+                  </Row>
+                )}
               </Tab>
-              
+
               <Tab eventKey="about3" title="Features">
-                <Image src="/images/Tab_IMG.png" className="img-fluid mt-4" alt="3D Rendered Image" />
+                {activeKey === "about3" && (
+                  <Image src="/images/embrace-features-map.png" className="img-fluid mt-4" alt="Features" />
+                )}
               </Tab>
             </Tabs>
           </Col>

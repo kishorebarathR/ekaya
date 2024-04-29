@@ -58,6 +58,10 @@
   background-color:white !important;
   color:  #6BAAB7 !important;
 }
+.hover-btn{
+  background-color: #6BAAB7 !important ;
+  color:  white ;
+}
 .hover-contact:hover{
   background-color:#46566D !important;
   color:white !important;
