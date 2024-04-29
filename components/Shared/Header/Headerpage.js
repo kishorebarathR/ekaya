@@ -23,7 +23,7 @@ const Headerpage = () => {
         <Row className="align-items-center mb-3"> 
           <Col lg={1}>
             <Navbar Navbar expand="lg">
-              <NavDropdown className='text-light mt-4 ms-5 fs-6' title="Our Project" id="basic-nav-dropdown">
+              <NavDropdown className='text-light mt-4 ms-5 fs-6' title="Our Projects" id="basic-nav-dropdown">
                 <Row className='row d-flex flex-colum '>
                   <Col sm={12} lg={3}>
                     <div className='d-flex flex-row'>
@@ -41,7 +41,7 @@ const Headerpage = () => {
                         <hr/>
                         <NavDropdown.Item href="#action/3.2" className="wbg-txt-green">Bangalore</NavDropdown.Item>
                         <NavDropdown.Item href="embrace">- Embrace</NavDropdown.Item>
-                        <NavDropdown.Item className="wbg-green" href="ellin">- Ellin</NavDropdown.Item>
+                        <NavDropdown.Item className="wbg-green" href="ellen">- Ellen</NavDropdown.Item>
                       </div>
                       <div>
                         <NavDropdown.Item href="../takshavi">Ongoing Projects</NavDropdown.Item>
