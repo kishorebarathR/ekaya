@@ -22,14 +22,14 @@ const VistaPage = () => {
         <p className="justify-content-center mx-4 display-6 ms-lg-5 px-lg-5">
           Alvit and Esmeralda’s Journey
         </p>
-        <p className=" fs-5 mx-4 mt-3 ms-lg-5 px-lg-5">
+        <p className=" fs-6 mx-4 mt-3 ms-lg-5 px-lg-5">
           In the vibrant city of Dar es Salaam, nestled in East Africa, Alvit
           and Esmeralda began their life together. Over the span of five years,
           their family blossomed with the arrival of two daughters, Siandra and
           Jennifer. However, as the tumultuous East African revolution unfolded
           in 1965, the family migrated to Bangalore, India.
         </p>
-        <p className=" fs-5 ms-lg-5 px-lg-5 mt-3 mx-4">
+        <p className=" fs-6 ms-lg-5 px-lg-5 mt-3 mx-4">
           In Bangalore, amidst the bustling streets and new beginnings, Alvit
           and Esmeralda found themselves embracing fresh opportunities. When an
           enticing offer came from Oman, they eagerly seized it. Alvit was
@@ -38,7 +38,7 @@ const VistaPage = () => {
           landscaping the vast Royal Oman Police establishments across the
           country.
         </p>
-        <p className=" fs-5 ms-lg-5 px-lg-5 mt-3 mx-4">
+        <p className=" fs-6 ms-lg-5 px-lg-5 mt-3 mx-4">
           A decade of dedication and success later, Alvit and Esmeralda returned
           to Bangalore, their hearts filled with memories of Oman’s beauty and
           prosperity. It was then that Alvit began to dream of building their
@@ -46,24 +46,24 @@ const VistaPage = () => {
           Siandra embarked on her own journey, finding employment in the
           enchanting state of Goa.
         </p>
-        <p className=" fs-5 ms-lg-5 px-lg-5 mt- mx-4">
+        <p className=" fs-6 ms-lg-5 px-lg-5 mt- mx-4">
           When the time came for Siandra’s wedding, her parents asked her what
           she desired as a gift. Without hesitation, Siandra expressed her wish
           for a plot of land in Goa.
         </p>
-        <p className=" fs-5 ms-lg-5 px-lg-5 mt-3 mx-4">
+        <p className=" fs-6 ms-lg-5 px-lg-5 mt-3 mx-4">
           Throughout the years, whenever Alvit and Esmeralda visited Goa, they
           would drive from Loutolim, Esmeralda’s grandmother’s home, to Dona
           Paula. Standing on a particular spot overlooking the majestic Marmagoa
           harbor, Alvit would declare, “One day, I will build a house here!”
         </p>
-        <p className=" fs-5 ms-lg-5 px-lg-5 mt-3 mx-4">
+        <p className=" fs-6 ms-lg-5 px-lg-5 mt-3 mx-4">
           Fate intervened, and Alvit finally found three plots in Dona Paula.
           One was gifted to Siandra, another was designated as an orchard, and
           the third became the site of their dream home, named Vista do Mar,
           meaning “views of the sea” in Portuguese.
         </p>
-        <p className=" fs-5 ms-lg-5 px-lg-5 mt-3 mx-4">
+        <p className=" fs-6 ms-lg-5 px-lg-5 mt-3 mx-4">
           Today, the villa still stands proudly as a symbol of Alvit’s vision
           and determination. Ekaya Spaces has collaborated with the family to
           develop a luxury apartment project, aptly named Vista do Mar, ensuring

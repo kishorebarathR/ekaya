@@ -1,5 +1,6 @@
 import React from 'react'
 import { Row, Col, Container, Image } from 'react-bootstrap'
+import { GoArrowUpRight } from "react-icons/go";
 
 const Footerpage = () => {
     return (
@@ -8,9 +9,9 @@ const Footerpage = () => {
             <Container>
                 <Row className=' mt-5 '>
                     <Col lg={12} sm={12} className='d-flex flex-row text-center '>
-                        <a href="#" className="  w-100 p-2 fs-6  color-footer border">Facebook &#129125;</a>
-                        <a href="#" className="  w-100 p-2 fs-6 color-footer border">LinkedIn &#129125;</a>
-                        <a href="#" className="  w-100 p-2 fs-6 color-footer border">YouTube &#129125;</a></Col>
+                        <a href="#" className="  w-100 p-2 fs-6  color-footer border">Facebook <GoArrowUpRight className='fs-3' /></a>
+                        <a href="#" className="  w-100 p-2 fs-6 color-footer border">LinkedIn <GoArrowUpRight className='fs-3'/></a>
+                        <a href="#" className="  w-100 p-2 fs-6 color-footer border">YouTube <GoArrowUpRight className='fs-3'/></a></Col>
                 </Row>
             </Container>
             <Container fluid className='p-0 light-gray'>
