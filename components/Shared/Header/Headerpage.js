@@ -80,7 +80,7 @@ const Headerpage = () => {
             <a href='/'><Image  src="/images/Homepage_logo.svg" className="img-fluid mt-4" alt="..." /></a>
           </Col>
           <Col lg={4} className="text-end"> 
-            <Button className="rounded-5 bg-white mt-4 text-success border-0 float-end me-5 pt-2">INQUIRE <BsArrowRightShort className='fs-3' /></Button>
+            <Button className="rounded-5 bg-white mt-4 wbg-txt-green border-0 float-end me-5 pt-2">INQUIRE <BsArrowRightShort className='fs-3' /></Button>
           </Col>
         </Row>
       </Container>
