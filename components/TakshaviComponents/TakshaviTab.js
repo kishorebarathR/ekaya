@@ -13,7 +13,7 @@ const TakshaviTab = () => {
   return (
     <>  <Container className='mt-5x'>
     <Row>
-      <Col lg={12} className='mt-5'>
+      <Col lg={12} className='mt-5 ms-lg-5 px-lg-5'>
         <Tabs
           activeKey={activeKey}
           onSelect={handleTabSelect}

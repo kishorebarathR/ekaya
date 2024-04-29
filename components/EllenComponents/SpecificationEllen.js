@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Col, Container, Image } from "react-bootstrap";
 
-const SpecificationEllin = () => {
+const SpecificationEllen = () => {
   return (
     <>
       <Container
@@ -278,4 +278,4 @@ const SpecificationEllin = () => {
   );
 };
 
-export default SpecificationEllin;
+export default SpecificationEllen
