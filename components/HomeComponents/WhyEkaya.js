@@ -22,7 +22,7 @@ const WhyEkaya = () => {
               className="mb-3 custom-tabs"
               style={{ width: '100%' }}
             >
-              <Tab eventKey="home tab-title" title={<span className="tab-title">Nature’s Embrace<p className='mb-0'></p> in Every Corner</span>}>
+              <Tab eventKey="home tab-title text-decoration-none" title={<span className="tab-title">Nature’s Embrace<p className='mb-0'></p> in Every Corner</span>}>
                 <p className='fs-6 px-5'>
                   HII I AM KISHORE Every property we craft is a symphony of exclusivity and grandeur, designed to cater to the most refined tastes. From opulent interiors to breathtaking exteriors, each element is meticulously curated to ensure an ambiance of unparalleled sophistication. We pay attention to the minutest details, creating spaces that epitomize the height of elegance and comfort.
                 </p>

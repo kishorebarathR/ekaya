@@ -75,10 +75,9 @@ const Insights = () => {
 
 
             </div>
-            
 
-            <Container className="p-0"fluid>
-            <Image src="/images/Group 49562.jpg" className="w-100 mt-3" alt="Additional Image" />
+            <Container className="p-0" fluid>
+            <Image src="/images/Group 49562.jpg" className="w-100 h-100"  />
             </Container>
         </Container>
         </>
