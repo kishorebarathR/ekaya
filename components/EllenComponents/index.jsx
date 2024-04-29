@@ -1,11 +1,11 @@
 import React from 'react'
 import Header from '../Shared/Header'
 import Footer from '../Shared/Footer'
-import EllinBanner from './EllinBanner'
-import EllinPage from './EllinPage'
-import SpecificationEllin from './SpecificationEllin'
-import EllinMap from './EllinMap'
-import EllinTab from './EllinTab'
+import EllinBanner from './EllenBanner'
+import EllinPage from './EllenPage'
+import SpecificationEllin from './SpecificationEllen'
+import EllinMap from './EllenMap'
+import EllinTab from './EllenTab'
 import Form from './Form'
 
 const index = () => {

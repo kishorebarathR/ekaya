@@ -1,7 +1,7 @@
 import React from 'react'
 import { Row, Col, Container, Image } from 'react-bootstrap'
 
-const EllinPage = () => {
+const EllenPage = () => {
     return (
         <>
             <Container>
@@ -49,4 +49,4 @@ const EllinPage = () => {
     )
 }
 
-export default EllinPage
+export default EllenPage
