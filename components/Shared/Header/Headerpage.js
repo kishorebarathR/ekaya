@@ -39,7 +39,7 @@ const Headerpage = () => {
                         <hr/>
                         <NavDropdown.Item href="#action/3.2" className="wbg-txt-green">Bangalore</NavDropdown.Item>
                         <NavDropdown.Item href="embrace">- Embrace</NavDropdown.Item>
-                        <NavDropdown.Item className="wbg-green" href="ellen">- Ellen</NavDropdown.Item>
+                        <NavDropdown.Item className="wbg-green" href="ellin">- Ellin</NavDropdown.Item>
                       </div>
                       <div>
                         <NavDropdown.Item href="../takshavi">Ongoing Projects</NavDropdown.Item>
