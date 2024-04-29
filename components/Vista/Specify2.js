@@ -12,12 +12,12 @@ const Specificy2 = () => {
         <div className="border-bottom-white "></div>
         <Container className="">
           <Row className="border-bottom-white">
-            <Col lg={5}>
+            <Col>
               <p className="fs-5 px-lg-5 p-3 ms-lg-5 m-0">
                 <b>SANITARY & PLUMBING</b>
               </p>
             </Col>
-            <Col lg={5} className="d-flex flex-column fs-6 p-3">
+            <Col className="d-flex flex-column fs-5 p-3">
               <div className="d-flex flex-row justify-content-start align-items-start ">
                 <div>
                   <ul>
@@ -30,12 +30,12 @@ const Specificy2 = () => {
           </Row>
 
           <Row className="border-bottom-white">
-            <Col lg={5}>
+            <Col>
               <p className="fs-5 px-lg-5 ms-lg-5 p-3 m-0">
                 <b>ELECTRICAL</b>
               </p>
             </Col>
-            <Col lg={5} className="d-flex flex-column fs-6 p-3">
+            <Col className="d-flex flex-column fs-5 p-3">
               <div className="d-flex flex-row justify-content-start align-items-start ">
                 <div>
                   <ul>
@@ -52,13 +52,13 @@ const Specificy2 = () => {
           </Row>
 
           <Row className="border-bottom-white">
-            <Col lg={5}>
+            <Col>
               <p className="fs-5 px-lg-5 ms-lg-5 p-3 m-0">
                 <b>AIR CONDITIONG</b>
               </p>
             </Col>
 
-            <Col lg={5} className="d-flex flex-column fs-6 p-3">
+            <Col className="d-flex flex-column fs-5 p-3">
               <div className="d-flex flex-row justify-content-start align-items-start ">
                 <div>
                   <ul>
@@ -70,12 +70,12 @@ const Specificy2 = () => {
           </Row>
 
           <Row className="border-bottom-white">
-            <Col lg={5}>
+            <Col>
               <p className="fs-5 px-lg-5 ms-lg-5 p-3 m-0">
                 <b>TELEPHONE POINTS</b>
               </p>
             </Col>
-            <Col lg={5} className="d-flex flex-column fs-6 p-3">
+            <Col className="d-flex flex-column fs-5 p-3">
               <div className="d-flex flex-row justify-content-start align-items-start ">
                 <div>
                   <ul>
@@ -87,13 +87,13 @@ const Specificy2 = () => {
           </Row>
 
           <Row className="border-bottom-white">
-            <Col lg={5}>
+            <Col>
               <p className="fs-5 px-lg-5 ms-lg-5 p-3 m-0">
                 <b>D.G. KIRLOSKAR MAKE</b>
               </p>
             </Col>
 
-            <Col lg={5} className="d-flex flex-column fs-6 p-3">
+            <Col className="d-flex flex-column fs-5 p-3">
               <div className="d-flex flex-row justify-content-start align-items-start ">
                 <div>
                   <ul>
@@ -106,13 +106,13 @@ const Specificy2 = () => {
           </Row>
 
           <Row className=" border-bottom-white">
-            <Col lg={5}>
+            <Col>
               <p className="fs-5 px-lg-5 ms-lg-5 p-3 m-0">
                 <b>ELEVATORS</b>
               </p>
             </Col>
 
-            <Col lg={5} className="d-flex flex-column fs-6 p-lg-3">
+            <Col className="d-flex flex-column fs-5 p-lg-3">
               <div className="d-flex flex-row justify-content-start align-items-start ">
                 <div>
                   <ul>
@@ -124,12 +124,12 @@ const Specificy2 = () => {
           </Row>
 
           <Row className="">
-            <Col lg={5}>
+            <Col>
               <p className="fs-5 px-lg-5 ms-lg-5 p-3 m-0">
                 <b>SECURITY</b>
               </p>
             </Col>
-            <Col lg={5} className="d-flex flex-column fs-6 p-3">
+            <Col className="d-flex flex-column fs-5 p-3">
               <div className="d-flex flex-row justify-content-start align-items-start ">
                 <div>
                   <ul>

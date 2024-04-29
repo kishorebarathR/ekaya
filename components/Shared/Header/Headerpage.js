@@ -3,7 +3,6 @@
 import React, { useState } from 'react';
 import { Row, Col, Container, Image, Navbar, Nav, NavDropdown, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BsArrowRightShort } from "react-icons/bs";
 
 const Headerpage = () => {
   const [showDropdown, setShowDropdown] = useState(false);
@@ -17,12 +16,12 @@ const Headerpage = () => {
   };
 
   return (
-    <Container fluid className='position-absolute border-bottom border-secondary '>
+    <Container fluid className='position-absolute border-bottom border-secondary z-3'>
       <Container>
         <Row className="align-items-center mb-3"> 
           <Col lg={1}>
-            <Navbar expand="lg">
-              <NavDropdown className='text-light mt-4 ms-3 fs-6' title="Our Project" id="basic-nav-dropdown">
+            <Navbar Navbar expand="lg">
+              <NavDropdown className='text-light mt-4 ms-5 fs-6' title="Our Project" id="basic-nav-dropdown">
                 <Row className='row d-flex flex-colum '>
                   <Col sm={12} lg={3}>
                     <div className='d-flex flex-row'>
@@ -78,8 +77,8 @@ const Headerpage = () => {
           <Col lg={4} className="text-center"> 
             <a href='/'><Image  src="/images/Homepage_logo.svg" className="img-fluid mt-4" alt="..." /></a>
           </Col>
-          <Col lg={4}> 
-            <Button className="rounded-pill bg-white mt-4 wbg-txt-green border-0 float-end me-5 text-center">INQUIRE <BsArrowRightShort className='fs-3' /></Button>
+          <Col lg={4} className="text-end"> 
+            <Button className="rounded-5 bg-white mt-4 text-success border-0 float-end me-5 pt-2">INQUIRE &#8594;</Button>
           </Col>
         </Row>
       </Container>
