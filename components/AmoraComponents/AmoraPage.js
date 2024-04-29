@@ -107,7 +107,7 @@ const AmoraPage = () => {
       <Container>
         <Row className="mt-5">
           <Col lg={5}>
-            <img
+            <Image
               className="h-100 w-100 p-lg-5"
               src="/images/Amora-Group-3.png"
             />
@@ -139,7 +139,7 @@ const AmoraPage = () => {
             </p>
           </Col>
           <Col lg={5} className="mb-4">
-            <img
+            <Image
               className="w-100 h-100 p-lg-5"
               src="/images/Amora-Group-4.png"
             />
@@ -148,7 +148,7 @@ const AmoraPage = () => {
 
         <Row className="">
           <Col lg={5}>
-            <img
+            <Image
               className="h-100 w-100 p-lg-5"
               src="/images/Amora-Group-5.png"
             />
@@ -164,7 +164,7 @@ const AmoraPage = () => {
         </Row>
       </Container>
       <Container fluid className="p-0 position-relative">
-      <img className="h-100 w-100" src="/images/Amora-fluid-img.png" alt="Amora Villas" />
+      <Image className="h-100 w-100" src="/images/Amora-fluid-img.png" alt="Amora Villas" />
       <p className="fs-6 bg-white p-4 position-absolute bottom-0 end-0 mb-0  col-lg-6 amora-fluid border"> {/* Changed fs-5 to fs-6 */}
         In essence, Amora Villas stands as a testament to unparalleled luxury
         and sophistication, offering discerning vacationers a rare opportunity
