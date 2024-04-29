@@ -16,9 +16,9 @@ const Headerpage = () => {
   };
 
   return (
-    <Container fluid className='position-absolute border-bottom'>
+    <Container fluid className='position-absolute border-bottom border-secondary '>
       <Container>
-        <Row className="align-items-center"> 
+        <Row className="align-items-center mb-3"> 
           <Col lg={1}>
             <Navbar expand="lg">
               <NavDropdown className='text-light mt-4 ms-5 fs-6' title="Our Project" id="basic-nav-dropdown">
