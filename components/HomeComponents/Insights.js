@@ -6,6 +6,7 @@ import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 const Insights = () => {
     
     return (
+        <>
         <Container>
             <p className='text-center mt-3 display-5'>Insights</p>
             <p className='text-center fs-5'>Gain valuable insights into the world of luxury real estate and what makes an Ekaya home <br />the right choice for discerning buyers.</p>
@@ -74,12 +75,14 @@ const Insights = () => {
 
 
             </div>
-            <Image src="/images/Group 49562.jpg" className="w-100 mt-3" alt="Additional Image" />
+            
 
-            <Container>
-                {/* Additional content goes here */}
+            <Container className="p-0"fluid>
+            <Image src="/images/Group 49562.jpg" className="w-100 mt-3" alt="Additional Image" />
             </Container>
         </Container>
+        </>
+        
     );
 };
 
