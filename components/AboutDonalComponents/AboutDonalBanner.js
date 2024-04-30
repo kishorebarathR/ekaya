@@ -19,7 +19,6 @@ const AboutDonalBanner = () => {
                         <h1 className=" px-5 ms-5 py-2 text-white display-1 mb-5">
                             <b> About <p className='mb-0'>  Dona Paula</p></b>
                         </h1>
-                       
                     </Col>
                 </Row>
             </Container>
