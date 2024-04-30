@@ -9,7 +9,7 @@ const FeaturesTakshavi = () => {
           <Row className="border-bottom-green">
             <Col lg={5} className="mt-4">
               <p className="fs-5 ms-lg-5 px-lg-5 p-lg-3">
-                <b>SANITARY & PLUMBING</b>
+                <h5>SANITARY & PLUMBING</h5>
               </p>
             </Col>
             <Col lg={5} className="d-flex flex-column fs-6 mt-4 p-lg-3">
@@ -41,7 +41,7 @@ const FeaturesTakshavi = () => {
           <Row className="border-bottom-green">
             <Col lg={5}>
               <p className="fs-5 ms-lg-5 px-lg-5 p-lg-3 p-2">
-                <b>ELECTRICAL</b>
+                <h5>ELECTRICAL</h5>
               </p>
             </Col>
 
@@ -68,7 +68,7 @@ const FeaturesTakshavi = () => {
           <Row className="border-bottom-green">
             <Col lg={5}>
               <p className="fs-5 ms-lg-5 p-lg-3 p-2 px-lg-5">
-                <b>AIR CONDITIONG</b>
+                <h5>AIR CONDITIONG</h5>
               </p>
             </Col>
             <Col lg={5} className="d-flex flex-column fs-6 p-lg-3 p-2">
@@ -89,7 +89,7 @@ const FeaturesTakshavi = () => {
           <Row className="border-bottom-green">
             <Col lg={5}>
               <p className="fs-5 ms-lg-5 p-lg-3 p-2 px-lg-5">
-                <b>TELEPHONE POINTS</b>
+                <h5>TELEPHONE POINTS</h5>
               </p>
             </Col>
             <Col lg={5} className="d-flex flex-column fs-6 p-lg-3 p-2">
@@ -127,7 +127,7 @@ const FeaturesTakshavi = () => {
           <Row className="border-bottom-green ">
             <Col lg={5}>
               <p className="fs-5 ms-lg-5 p-lg-3 p-2 px-lg-5">
-                <b>TELEPHONE POINTS</b>
+                <h5>TELEPHONE POINTS</h5>
               </p>
             </Col>
             <Col lg={5} className="d-flex flex-column fs-6 p-lg-3 p-2">
@@ -148,7 +148,7 @@ const FeaturesTakshavi = () => {
           <Row className="border-bottom-green">
             <Col lg={5}>
               <p className="fs-5 ms-lg-5 p-lg-3 p-2 px-lg-5">
-                <b>D.G. KIRLOSKAR MAKE</b>
+                <h5>D.G. KIRLOSKAR MAKE</h5>
               </p>
             </Col>
             <Col lg={5} className="d-flex flex-column fs-6 p-lg-3 p-2">
@@ -180,7 +180,7 @@ const FeaturesTakshavi = () => {
           <Row className="border-bottom-green">
             <Col lg={5}>
               <p className="fs-5 ms-lg-5 p-lg-3 p-2 px-lg-5">
-                <b>ELEVATORS</b>
+                <h5>ELEVATORS</h5>
               </p>
             </Col>
             <Col lg={5} className="d-flex flex-column fs-6 p-lg-3 p-2">
@@ -204,7 +204,7 @@ const FeaturesTakshavi = () => {
           <Row className="border-bottom-green">
             <Col lg={5}>
               <p className="fs-5 ms-lg-5 p-lg-3 p-2 px-lg-5">
-                <b>SECURITY</b>
+                <h5>SECURITY</h5>
               </p>
             </Col>
             <Col lg={5} className="d-flex flex-column fs-6 p-lg-3 p-2">

@@ -21,11 +21,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"  />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
 
-      <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" />
+        <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" />
 
-      <link rel="stylesheet" href="https://rsms.me/inter/inter.css"></link>
+        <link rel="stylesheet" href="https://rsms.me/inter/inter.css"></link>
 
       </head>
       <body>{children}</body>

@@ -12,15 +12,15 @@ import Form from './Form'
 const index = () => {
   return (
     <>
-    <Header />
-            <HomeBanner />
-            <AboutEkaya/>
-            {/* <Propertiesoverview/> */}
-            <WhyEkaya/>
-            <Insights/>
-            <Form/>
-         
-    <Footer />
+      <Header />
+      <HomeBanner />
+      <AboutEkaya />
+      {/* <Propertiesoverview/> */}
+      <WhyEkaya />
+      <Insights />
+      <Form />
+
+      <Footer />
     </>
   )
 }

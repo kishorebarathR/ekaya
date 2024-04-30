@@ -20,7 +20,7 @@ const SpecificationTakshavi = () => {
           <Row className="border-bottom-green">
             <Col lg={5}>
               <p className="fs-5 px-lg-5 ms-lg-5 p-3">
-                <b>structure</b>
+                <h5>structure</h5>
               </p>
             </Col>
             <Col className="d-flex flex-column fs-6 p-3" lg={5}>
@@ -56,7 +56,7 @@ const SpecificationTakshavi = () => {
           <Row className="border-bottom-green">
             <Col lg={5}>
               <p className="fs-5 px-lg-5 ms-lg-5 p-3">
-                <b>Finishes</b>
+                <h5>Finishes</h5>
               </p>
             </Col>
             <Col className="d-flex flex-column p-3" lg={5}>
@@ -150,7 +150,7 @@ const SpecificationTakshavi = () => {
           <Row className="border-bottom-green">
             <Col lg={5}>
               <p className="fs-5 px-lg-5 ms-lg-5 p-3">
-                <b>Toilets</b>
+                <h5>Toilets</h5>
               </p>
             </Col>
 
@@ -187,7 +187,7 @@ const SpecificationTakshavi = () => {
           <Row className="border-bottom-green">
             <Col lg={5}>
               <p className="fs-5 px-lg-5 ms-lg-5 p-3">
-                <b>Kitchen</b>
+                <h5>Kitchen</h5>
               </p>
             </Col>
             <Col className="d-flex flex-column fs-6 p-3" lg={5}>
@@ -278,7 +278,7 @@ const SpecificationTakshavi = () => {
           <Row className="border-bottom-green">
             <Col lg={5}>
               <p className="fs-5 px-lg-5 ms-lg-5 p-3">
-                <b>Balconies/Utilities</b>
+                <h5>Balconies/Utilities</h5>
               </p>
             </Col>
 
@@ -340,7 +340,7 @@ const SpecificationTakshavi = () => {
           <Row className=" border-bottom-green">
             <Col lg={5}>
               <p className="fs-5 px-lg-5 ms-lg-5 p-3">
-                <b>Common areas and Staircase</b>
+                <h5>Common areas and Staircase</h5>
               </p>
             </Col>
 
@@ -395,7 +395,7 @@ const SpecificationTakshavi = () => {
           <Row className="">
             <Col lg={5}>
               <p className="fs-5 px-lg-5 ms-lg-5 p-3">
-                <b>JOINERY</b>
+                <h5>Joinery</h5>
               </p>
             </Col>
             <Col className="d-flex flex-column fs-6 p-3" lg={5}>
