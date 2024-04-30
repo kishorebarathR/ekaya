@@ -16,9 +16,9 @@ const SpecificationVista = () => {
           <div className="border-bottom-green"></div>
           <Row className="border-bottom-green">
             <Col lg={5}>
-              <p className="fs-5 px-lg-5 ms-lg-5 p-3">
-                <b>STRUCTURE</b>
-              </p>
+              <h5 className="fs-5 px-lg-5 ms-lg-5 p-3">
+              Structure
+              </h5>
             </Col>
             <Col className="d-flex flex-column fs-6 p-3" lg={5}>
               <div className="d-flex flex-row justify-content-start align-items-start ">
@@ -53,11 +53,11 @@ const SpecificationVista = () => {
           <Row className="border-bottom-green">
             <Col lg={5}>
               <p className="fs-5 px-lg-5 ms-lg-5 p-3">
-                <b>Finishes</b>
+              <h5>Finishes</h5>
               </p>
             </Col>
             <Col className="d-flex flex-column p-3" lg={5}>
-              <h5 className="p-2">LIVING / DINING</h5>
+              <p className="p-2 fs-5">LIVING / DINING</p>
               <div className="d-flex flex-row justify-content-start align-items-start ">
                 <div>
                   <Image
@@ -92,7 +92,7 @@ const SpecificationVista = () => {
           <Row className="border-bottom-green">
             <Col lg={5}>
               <p className="fs-5 px-lg-5 ms-lg-5 p-3">
-                <b>Toilets</b>
+                <h5>Toilets</h5>
               </p>
             </Col>
 
@@ -143,7 +143,7 @@ const SpecificationVista = () => {
           <Row className="border-bottom-green">
             <Col lg={5}>
               <p className="fs-5 px-lg-5 ms-lg-5 p-3">
-                <b>KITCHEN</b>
+                <h5>Kitchen</h5>
               </p>
             </Col>
             <Col className="d-flex flex-column fs-6 p-3" lg={5}>
@@ -222,7 +222,7 @@ const SpecificationVista = () => {
           <Row className="border-bottom-green">
             <Col lg={5}>
               <p className="fs-5 px-lg-5 ms-lg-5 p-3">
-                <b>Balconies/Utilities</b>
+                <h5>Balconies/Utilities</h5>
               </p>
             </Col>
 
@@ -284,7 +284,7 @@ const SpecificationVista = () => {
           <Row className=" border-bottom-green">
             <Col lg={5}>
               <p className="fs-5 px-lg-5 ms-lg-5 p-3">
-                <b>Common areas and Staircase</b>
+              <h5>Common areas and Staircase</h5>
               </p>
             </Col>
 
@@ -339,11 +339,11 @@ const SpecificationVista = () => {
           <Row className="">
             <Col lg={5}>
               <p className="fs-5 px-lg-5 ms-lg-5 p-3">
-                <b>Joinery</b>
+                <h5>Joinery</h5>
               </p>
             </Col>
             <Col className="d-flex flex-column fs-6 p-3" lg={5}>
-              <h5 className="p-2">Main Door</h5>
+              <p className="p-2 fs-5">Main Door</p>
               <div className="d-flex flex-row justify-content-start align-items-start ">
                 <div>
                   <Image
@@ -360,7 +360,7 @@ const SpecificationVista = () => {
                   </p>
                 </div>
               </div>
-              <h5 className="p-2">Internal Doors</h5>
+              <p className="p-2 fs-5">Internal Doors</p>
               <div className="d-flex flex-row justify-content-start align-items-start ">
                 <div>
                   <Image
@@ -377,7 +377,7 @@ const SpecificationVista = () => {
                   </p>
                 </div>
               </div>
-              <h5 className="p-2">Toilet Doors</h5>
+              <p className="p-2 fs-5">Toilet Doors</p>
               <div className="d-flex flex-row justify-content-start align-items-start ">
                 <div>
                   <Image
