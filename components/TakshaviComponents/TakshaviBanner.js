@@ -23,23 +23,17 @@ const TakshaviBanner = () => {
                     </Col>
                 </Row>
             </Container>
+
             <Col lg={4} className="position-absolute end-0 ms-5 me-5 bottom-0  mt-3">
       <Button className=" text-start me-5 p-lg-3 p-3 px-5 hover-contact  border-0 rounded-0 w-100">
           Contact Us <FaArrowRight className="ms-lg-2" />
         </Button>
       </Col>
-
-
-
       <Col className="position-absolute end-0 ms-4  bottom-0 mt-3">
-
         <Button className=" text-center  bg-white p-lg-3  p-3 border-0 rounded-0">
           Contact Us
         </Button>
       </Col>
-
-
-
 
         </>
     )

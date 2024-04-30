@@ -87,7 +87,7 @@ const TakshaviPage = () => {
 
       <Container>
         <h4 className="  p-5 ms-lg-5 px-lg-5">
-          <span className=" p-3 border-green">
+          <span className=" p-3 border-green bg-white">
             <Link className="wbg-green" href="#">
               Click here
             </Link>{" "}

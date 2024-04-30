@@ -14,7 +14,7 @@ const Specificy2 = () => {
           <Row className="border-bottom-white">
             <Col lg={5}>
               <p className="fs-5 px-lg-5 p-3 ms-lg-5 m-0">
-                <b>SANITARY & PLUMBING</b>
+                  <h5>SANITARY & PLUMBING</h5>
               </p>
             </Col>
             <Col lg={5} className="d-flex flex-column fs-6 p-3">
@@ -32,7 +32,7 @@ const Specificy2 = () => {
           <Row className="border-bottom-white">
             <Col lg={5}>
               <p className="fs-5 px-lg-5 ms-lg-5 p-3 m-0">
-                <b>ELECTRICAL</b>
+                <h5>ELECTRICAL</h5>
               </p>
             </Col>
             <Col lg={5} className="d-flex flex-column fs-6 p-3">
@@ -54,7 +54,7 @@ const Specificy2 = () => {
           <Row className="border-bottom-white">
             <Col lg={5}>
               <p className="fs-5 px-lg-5 ms-lg-5 p-3 m-0">
-                <b>AIR CONDITIONG</b>
+                <h5>AIR CONDITIONG</h5>
               </p>
             </Col>
 
@@ -72,7 +72,7 @@ const Specificy2 = () => {
           <Row className="border-bottom-white">
             <Col lg={5}>
               <p className="fs-5 px-lg-5 ms-lg-5 p-3 m-0">
-                <b>TELEPHONE POINTS</b>
+                <h5>TELEPHONE POINTS</h5>
               </p>
             </Col>
             <Col lg={5} className="d-flex flex-column fs-6 p-3">
@@ -89,7 +89,7 @@ const Specificy2 = () => {
           <Row className="border-bottom-white">
             <Col lg={5}>
               <p className="fs-5 px-lg-5 ms-lg-5 p-3 m-0">
-                <b>D.G. KIRLOSKAR MAKE</b>
+                <h5>D.G. KIRLOSKAR MAKE</h5>
               </p>
             </Col>
 
@@ -108,7 +108,7 @@ const Specificy2 = () => {
           <Row className=" border-bottom-white">
             <Col lg={5}>
               <p className="fs-5 px-lg-5 ms-lg-5 p-3 m-0">
-                <b>ELEVATORS</b>
+                <h5>ELEVATORS</h5>
               </p>
             </Col>
 
@@ -126,7 +126,7 @@ const Specificy2 = () => {
           <Row className="">
             <Col lg={5}>
               <p className="fs-5 px-lg-5 ms-lg-5 p-3 m-0">
-                <b>SECURITY</b>
+                <h5>SECURITY</h5>
               </p>
             </Col>
             <Col lg={5} className="d-flex flex-column fs-6 p-3">
@@ -148,3 +148,4 @@ const Specificy2 = () => {
 };
 
 export default Specificy2;
+  

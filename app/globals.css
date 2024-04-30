@@ -276,3 +276,20 @@ form .custom-input {
 
 
 
+.bg-green {
+  background: #abd2d3;
+}
+
+
+
+/*  */
+#triangle-right-1 {
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-left: 18px solid #abd2d3;
+  border-bottom: 15px solid transparent;
+  /* position: absolute;
+  top: 44%;
+  left:100%; */
+}
