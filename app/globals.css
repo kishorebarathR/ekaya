@@ -78,6 +78,20 @@
   background-color: black;
   
 }
+/* home page  */
+.btn-hover-slider{
+background:whitesmoke;
+color:  #6baab7 !important;
+
+}
+
+.btn-hover-slider:hover{
+  background: #5CA2B0 !important;
+  color: white !important;
+}
+
+
+
 /* AboutEkaya btn-hover */
 .actives{
   background-color: black !important;
@@ -239,6 +253,26 @@ form .custom-input {
   background: black;
 }
 
+
+.border-green{
+  /* border: 1px; */
+  border-color: #ABD2D3 !important;
+  background-color: #EFF1F3 !important;
+}
+.border-bottom-grey{
+  border-bottom: 1px solid #ced0d2 !important;
+}
+
+.border-bottom-dark{
+  border-bottom: 2px solid #afb1b1 !important;
+}
+.green-clr:hover{
+  color: #5CA2B0 !important;
+}
+
+.img-pos{
+  margin-top: -280px;
+}
 
 
 

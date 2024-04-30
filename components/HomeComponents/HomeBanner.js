@@ -26,12 +26,18 @@ const HomeBanner = () => {
         <Col className="position-absolute end-0 ms-5 me-5 bottom-0  mt-3 z-3">
 
                 <Button className=" text-center me-5  p-2 px-5 hover-contact  border-0 rounded-0">
-                    Contact Us<span className='float-end '> <FaArrowRight /></span>
+                    Contact Us<span className='float-end me-5'> <FaArrowRight /></span>
                 </Button>
             </Col>
 
 
 
+            <Col className="position-absolute end-0 ms-4 me-5 bottom-0 mt-3 z-3">
+
+                <Button className=" text-center  bg-white p-2  border-0 rounded-0">
+                    Contact Us
+                </Button>
+            </Col>
             <Col className="position-absolute end-0 ms-4  bottom-0 mt-3 z-3">
 
                 <Button className=" text-center  bg-white p-2  border-0 rounded-0">

@@ -4,12 +4,13 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 const ProjectRegistrationForm = () => {
   return (
-    <Container className='mt-5 p-3' style={{ backgroundColor: '#F1F4F5' }}>
+    <Container className='px-5 p-1 ms-1'>
+    <Container className='mt-5 p-5 mx-5 ' style={{ backgroundColor: '#F1F4F5' }}>
 
       <p className='mt-5 display-6'>Get in touch</p>
       <p className='fs-6'>*Required fields</p>
 
-      <Row>
+      <Row className="">
         <Col md={6}>
           <form>
             <div className="mb-3">
@@ -61,12 +62,13 @@ const ProjectRegistrationForm = () => {
           <button type="submit" className="btn btn text-white p-1 px-5 py-2 rounded-0" style={{ backgroundColor: '#474848' }}>Submit</button>
         </Col>
       </Row>
-
       <div className='fs-5 text-center p-3'>
-        {<span className="tab-title wbg-green ">Call:</span>}91 9844032022
-        <Col className='vr  ' style={{ width: '3px', height: '10px' }}></Col>
-        {<span className="tab-title wbg-green ">Email:</span>}
-        <a href="#" className="link-dark fs-6 text-decoration-none">Contact@ekaya</a></div>
+        {<span className="tab-title wbg-green">Call:</span>} +91 98440 32022
+        <Col className='vr ms-2' style={{ width: '3px', height: '10px',color:"#5CA2B0" }}></Col>
+        {<span className="tab-title wbg-green ms-2">Email:</span>}
+        <a href="#" className="link-dark text-decoration-none"> Contact@ekaya.in</a>
+        </div>
+    </Container>
     </Container>
   );
 };
