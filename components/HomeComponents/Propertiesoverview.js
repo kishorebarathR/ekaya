@@ -1,5 +1,6 @@
+'use client'
 import React, { useState } from 'react';
-import { Row, Col, Container, Image, Button } from 'react-bootstrap';
+import { Row, Col, Container, Image, Button, Carousel } from 'react-bootstrap';
 import { FaAngleDown, FaAngleUp, FaArrowRight } from 'react-icons/fa';
 
 const Propertiesoverview = () => {
@@ -9,30 +10,39 @@ const Propertiesoverview = () => {
   const [showEllenContent, setShowEllenContent] = useState(false);
   const [isCollapsed1, setCollapse1] = useState(true);
 
+  const [index, setIndex] = useState(0);
+
+  const handleSelect = (selectedIndex) => {
+    setIndex(selectedIndex);
+  };
+
+
   const toggleCollapse = () => {
     setCollapse(!isCollapsed);
   };
 
   const toggleTakshaviContent = () => {
     setShowTakshaviContent(!showTakshaviContent);
-    setShowEmbraceContent(false); 
+    setShowEmbraceContent(false);
     setShowEllenContent(false);
   };
 
   const toggleEmbraceContent = () => {
     setShowEmbraceContent(!showEmbraceContent);
-    setShowTakshaviContent(false); 
+    setShowTakshaviContent(false);
     setShowEllenContent(false);
   };
 
   const toggleEllenContent = () => {
     setShowEllenContent(!showEllenContent);
-    setShowTakshaviContent(false); 
+    setShowTakshaviContent(false);
     setShowEmbraceContent(false);
   };
 
   const toggleCollapse1 = () => {
     setCollapse1(!isCollapsed1);
+
+
   };
 
   return (
@@ -57,7 +67,7 @@ const Propertiesoverview = () => {
                 <div id="panelsStayOpen-collapseOne" className={`accordion-collapse collapse ${isCollapsed ? '' : 'show'}`}>
                   <div className="accordion-body">
                     <div className="btn-group dropend w-100">
-                      <a style={{ cursor:"pointer"}} className="wbg-green rounded-0 text-decoration-none" onClick={toggleTakshaviContent}>
+                      <a style={{ cursor: "pointer" }} className="wbg-green rounded-0 text-decoration-none" onClick={toggleTakshaviContent}>
                         1. Takshavi <span className='float-end'></span>
                       </a>
                     </div>
@@ -81,12 +91,12 @@ const Propertiesoverview = () => {
                 <div id="panelsStayOpen-collapseTwo" className={`accordion-collapse collapse ${isCollapsed ? '' : 'show'}`}>
                   <div className="accordion-body">
                     <div className="btn-group dropend w-100">
-                      <a style={{ cursor:"pointer"}} className="wbg-green rounded-0 text-decoration-none" onClick={toggleEmbraceContent}>
+                      <a style={{ cursor: "pointer" }} className="wbg-green rounded-0 text-decoration-none" onClick={toggleEmbraceContent}>
                         1. Embrace <span className='float-end'></span>
                       </a>
                     </div>
                     <div className="btn-group dropend w-100">
-                      <a style={{ cursor:"pointer"}} className="wbg-green rounded-0 text-decoration-none" onClick={toggleEllenContent}>
+                      <a style={{ cursor: "pointer" }} className="wbg-green rounded-0 text-decoration-none" onClick={toggleEllenContent}>
                         2. Ellen <span className='float-end'></span>
                       </a>
                     </div>
@@ -95,26 +105,42 @@ const Propertiesoverview = () => {
               </div>
             </div>
           </Col>
+
           {showTakshaviContent && (
             <Col sm={12} lg={7}>
-              <div id="carouselExampleFade" className="carousel slide carousel-fade">
-                <div className="carousel-inner">
-                  <div className="carousel-item active">
-                    <Image src="/images/carousle.jpg" className="d-block w-100 h-75" alt="..." />
-                  </div>
-                  <div className="carousel-item">
-                    <Image src="/images/carousel-img.jpg" className="d-block w-100 h-75" alt="..." />
-                  </div>
-                </div>
-                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                  <span className="carousel-control-prev-icon bg-dark rounded-5 " aria-hidden="true"></span>
-                  <span className="visually-hidden ">Previous</span>
-                </button>
-                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                  <span className="carousel-control-next-icon bg-dark rounded-5" aria-hidden="true"></span>
-                  <span className="visually-hidden">Next</span>
-                </button>
-              </div>
+              <Carousel data-bs-theme="light">
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src="/images/Homebanner1.jpg"
+                    alt="First slide"
+                  />
+                  <Carousel.Caption>
+
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src="/images/Homebanner1.jpg"
+                    alt="Second slide"
+                  />
+                  <Carousel.Caption>
+
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src="/images/Homebanner1.jpg"
+                    alt="Third slide"
+                  />
+                  <Carousel.Caption>
+
+                  </Carousel.Caption>
+                </Carousel.Item>
+              </Carousel>
+
               <div>
                 <p className='fs-3 mt-4 mx-5'>Takshavi</p>
                 <p className='justify-content-center mx-5 fs-6'>Ekaya Spaces proudly unveils Takshavi, a boutique residential<br></br> enclave nestled in the heart of Frazer Town’s Spencer Road.</p>
@@ -124,26 +150,42 @@ const Propertiesoverview = () => {
               </div>
             </Col>
           )}
+
           {showEmbraceContent && (
             <Col sm={12} lg={7}>
-              <div id="carouselExampleFade" className="carousel slide carousel-fade">
-                <div className="carousel-inner">
-                  <div className="carousel-item active">
-                    <Image src="/images/Homebanner1.jpg" className="d-block w-100 p-0" alt="..." />
-                  </div>
-                  <div className="carousel-item">
-                    <Image src="/images/Embrace-banner.jpg" className="d-block w-100 p-0" alt="..." />
-                  </div>
-                </div>
-                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                  <span className="carousel-control-prev-icon bg-dark rounded-5" aria-hidden="true"></span>
-                  <span className="visually-hidden">Previous</span>
-                </button>
-                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                  <span className="carousel-control-next-icon bg-dark rounded-5" aria-hidden="true"></span>
-                  <span className="visually-hidden">Next</span>
-                </button>
-              </div>
+               <Carousel data-bs-theme="light">
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src="/images/Takshavi-banner.jpg"
+                    alt="First slide"
+                  />
+                  <Carousel.Caption>
+
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src="/images/Takshavi-banner.jpg"
+                    alt="Second slide"
+                  />
+                  <Carousel.Caption>
+
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src="/images/Takshavi-banner.jpg"
+                    alt="Third slide"
+                  />
+                  <Carousel.Caption>
+
+                  </Carousel.Caption>
+                </Carousel.Item>
+              </Carousel>
+              
               <div>
                 <p className='fs-3 mt-4 mx-5'>Embrace</p>
                 <p className='justify-content-center mx-5 fs-6'>Modern Idyll in a Three-Storey Block with six Luxurious Homes</p>
@@ -155,24 +197,38 @@ const Propertiesoverview = () => {
           )}
           {showEllenContent && (
             <Col sm={12} lg={7}>
-              <div id="carouselExampleFade" className="carousel slide carousel-fade">
-                <div className="carousel-inner">
-                  <div className="carousel-item active">
-                    <Image src="/images/Homebanner1.jpg" className="d-block w-100 p-0" alt="..." />
-                  </div>
-                  <div className="carousel-item">
-                    <Image src="/images/Embrace-banner.jpg" className="d-block w-100 p-0" alt="..." />
-                  </div>
-                </div>
-                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                  <span className="carousel-control-prev-icon bg-dark rounded-5" aria-hidden="true"></span>
-                  <span className="visually-hidden">Previous</span>
-                </button>
-                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                  <span className="carousel-control-next-icon bg-dark rounded-5" aria-hidden="true"></span>
-                  <span className="visually-hidden">Next</span>
-                </button>
-              </div>
+              <Carousel data-bs-theme="light ">
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src="/images/Homebanner1.jpg"
+                    alt="First slide"
+                  />
+                  <Carousel.Caption>
+
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src="/images/Homebanner1.jpg"
+                    alt="Second slide"
+                  />
+                  <Carousel.Caption>
+
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src="/images/Homebanner1.jpg"
+                    alt="Third slide"
+                  />
+                  <Carousel.Caption>
+
+                  </Carousel.Caption>
+                </Carousel.Item>
+              </Carousel>
               <div>
                 <p className='fs-3 mt-4 mx-5'>Ellen</p>
                 <p className='justify-content-center mx-5 fs-6'>A premium three-storey apartment block,<p className='mb-0'></p> with a total of 11 spacious modern homes,</p>
@@ -193,8 +249,10 @@ const Propertiesoverview = () => {
           <Image src="/images/Group 13190.png" className="img-fluid" alt="..." />
         </div>
       </Container>
+
+
     </>
   );
 }
 
-export default Propertiesoverview;
+export default Propertiesoverview

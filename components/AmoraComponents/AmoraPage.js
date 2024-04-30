@@ -1,6 +1,7 @@
 import React from "react";
 import { Row, Col, Container, Image } from "react-bootstrap";
-import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
+// import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
+import { MdArrowForwardIos, MdArrowBackIos } from "react-icons/md";
 
 const AmoraPage = () => {
   return (
@@ -74,11 +75,11 @@ const AmoraPage = () => {
           
         </div>
         <center>
-          <button type="button" data-bs-target="#demo" data-bs-slide="prev" className='rounded-circle btn btn-outline-success fs-4 me-2'>
-            <FaArrowLeft className='' />
+          <button type="button" data-bs-target="#demo" data-bs-slide="prev" className='rounded-circle btn bg-secondary text-white fs-4 me-2'>
+          <MdArrowBackIos className="ms-1" />
           </button>
-          <button type="button" data-bs-target="#demo" data-bs-slide="next" className='rounded-circle btn btn-outline-success fs-4'>
-            <FaArrowRight />
+          <button type="button" data-bs-target="#demo" data-bs-slide="next" className='rounded-circle btn text-white fs-4' style={{backgroundColor:"#5CA2B0"}}>
+          <MdArrowForwardIos className="ms-1" />
           </button>
         </center>
 

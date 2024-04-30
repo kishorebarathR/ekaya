@@ -1,11 +1,18 @@
 import React, { useState } from 'react';
-import { Row, Col, Container, Image } from 'react-bootstrap';
+import { Row, Col, Container, Image ,Carousel} from 'react-bootstrap';
 import { FaAngleDown, FaAngleUp } from 'react-icons/fa';
 
 const Goa = () => {
   const [isCollapsed, setCollapse] = useState(true);
   const [showVistaContent, setShowVistaContent] = useState(false);
   const [isCollapsed1, setCollapse1] = useState(true);
+
+  
+  const handleSelect = (selectedIndex) => {
+    setIndex(selectedIndex);
+  };
+
+
 
   const toggleCollapse = () => {
     setCollapse(!isCollapsed);
@@ -64,24 +71,38 @@ const Goa = () => {
           <Col sm={12} lg={8}>
             {showVistaContent && (
               <>
-                <div id="carouselExampleFade" className="carousel slide carousel-fade">
-                  <div className="carousel-inner">
-                    <div className="carousel-item active">
-                      <Image src="/images/Homebanner1.jpg" className="d-block w-100" alt="..." />
-                    </div>
-                    <div className="carousel-item">
-                      <Image src="/images/Embrace-banner.jpg" className="d-block w-100" alt="..." />
-                    </div>
-                  </div>
-                  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span className="visually-hidden">Previous</span>
-                  </button>
-                  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span className="visually-hidden">Next</span>
-                  </button>
-                </div>
+                <Carousel data-bs-theme="light">
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src="/images/Takshavi-banner.jpg"
+                    alt="First slide"
+                  />
+                  <Carousel.Caption>
+
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src="/images/Takshavi-banner.jpg"
+                    alt="Second slide"
+                  />
+                  <Carousel.Caption>
+
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src="/images/Takshavi-banner.jpg"
+                    alt="Third slide"
+                  />
+                  <Carousel.Caption>
+
+                  </Carousel.Caption>
+                </Carousel.Item>
+              </Carousel>
                 <div>
                   <p className='fs-3 mt-4 mx-5'>Vista-Do-Mar</p>
                   <p className='justify-content-center mx-5 fs-6'>A luxury apartment project in Dona Paula -Goa</p>

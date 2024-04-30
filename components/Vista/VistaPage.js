@@ -3,7 +3,8 @@ import { Row, Col, Container, Image, Carousel } from "react-bootstrap";
 import VistaDoMar from "./VistaJson";
 // import { IoIosArrowDroprightCircle } from "react-icons/io";
 // import { IoIosArrowDropleftCircle } from "react-icons/io";
-import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
+// import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
+import { MdArrowForwardIos, MdArrowBackIos } from "react-icons/md";
 
 import Link from "next/link";
 
@@ -104,11 +105,11 @@ const VistaPage = () => {
           
         </div>
         <center>
-          <button type="button" data-bs-target="#demo" data-bs-slide="prev" className='rounded-circle btn btn-outline-success fs-4 me-2'>
-            <FaArrowLeft className='' />
+          <button type="button" data-bs-target="#demo" data-bs-slide="prev" className='rounded-circle btn bg-secondary text-white fs-4 me-2'>
+          <MdArrowBackIos className="ms-1" />
           </button>
-          <button type="button" data-bs-target="#demo" data-bs-slide="next" className='rounded-circle btn btn-outline-success fs-4'>
-            <FaArrowRight />
+          <button type="button" data-bs-target="#demo" data-bs-slide="next" className='rounded-circle btn text-white fs-4' style={{backgroundColor:"#5CA2B0"}}>
+          <MdArrowForwardIos className="ms-1" />
           </button>
         </center>
 
@@ -118,7 +119,7 @@ const VistaPage = () => {
 
       <Container>
         <h4 className="text-center p-5">
-          <span className=" p-3 border-green fs-6">
+          <span className=" p-3 border-green bg-white fs-6">
             <Link className="wbg-green fs-6" href="#">
               Click here
             </Link> to fill the form for the project brochure

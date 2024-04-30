@@ -31,14 +31,14 @@ const Insights = () => {
                                 <Col sm={4} className='p-0'>
                                     <Image src="/images/Mask Group 33.jpg" className="d-block w-100 mt-5" alt="Third slide" />
                                     <div className='p-4 mx-3'>
-                                    <p className='fs-6'><b>Spaces that connect inside and outside</b></p>
+                                        <p className='fs-6'><b>Spaces that connect inside and outside</b></p>
                                         <p className="mt-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.</p>
                                     </div>
                                 </Col>
                             </Row>
                         </div>
-                        <div class="carousel-item px-5 ">
-                        <Row className='p-2 px-4'>
+                        <div class="carousel-item  ">
+                            <Row className='p-4 px-5'>
                                 <Col sm={4} className='p-0'>
                                     <Image src="/images/Mask Group 35.jpg" className="d-block w-100" alt="First slide" />
                                     <div className='p-4 mx-3'>
@@ -56,7 +56,7 @@ const Insights = () => {
                                 <Col sm={4} className='p-0'>
                                     <Image src="/images/Mask Group 33.jpg" className="d-block w-100 mt-5" alt="Third slide" />
                                     <div className='p-4 mx-3'>
-                                    <p className='fs-6'><b>Spaces that connect inside and outside</b></p>
+                                        <p className='fs-6'><b>Spaces that connect inside and outside</b></p>
                                         <p className="mt-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.</p>
                                     </div>
                                 </Col>
@@ -73,11 +73,11 @@ const Insights = () => {
                     </center>
                 </div>
 
-                
+
             </Container>
             <Container className="p-0 img-pos" fluid>
-                    <Image src="/images/Group 49562.jpg" className="w-100 mt-1" alt="Additional Image" />
-                </Container>
+                <Image src="/images/Group 49562.jpg" className="w-100 mt-1" alt="Additional Image" />
+            </Container>
         </>
 
     );

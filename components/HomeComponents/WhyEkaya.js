@@ -28,7 +28,7 @@ const WhyEkaya = () => {
                 </p>
               </Tab>
 
-              <Tab eventKey="profile" title={<span className="tab-title ">Elit<p className='mb-0'></p> Sanctuaries </span>}>
+              <Tab eventKey="profile" title={<span className="tab-title ">Elite<p className='mb-0'></p> Sanctuaries </span>}>
                 <p className='fs-6 px-5'>
                    Every property we craft is a symphony of exclusivity and grandeur, designed to cater to the most refined tastes. From opulent interiors to breathtaking exteriors, each element is meticulously curated to ensure an ambiance of unparalleled sophistication. We pay attention to the minutest details, creating spaces that epitomize the height of elegance and comfort.
                 </p>
