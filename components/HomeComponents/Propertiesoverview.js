@@ -110,7 +110,7 @@ const Propertiesoverview = () => {
             <Col sm={12} lg={7}>
               <Carousel data-bs-theme="light">
                 <Carousel.Item>
-                  <img
+                  <Image
                     className="d-block w-100"
                     src="/images/Homebanner1.jpg"
                     alt="First slide"
@@ -120,7 +120,7 @@ const Propertiesoverview = () => {
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img
+                  <Image
                     className="d-block w-100"
                     src="/images/Homebanner1.jpg"
                     alt="Second slide"
@@ -130,7 +130,7 @@ const Propertiesoverview = () => {
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img
+                  <Image
                     className="d-block w-100"
                     src="/images/Homebanner1.jpg"
                     alt="Third slide"
@@ -155,7 +155,7 @@ const Propertiesoverview = () => {
             <Col sm={12} lg={7}>
                <Carousel data-bs-theme="light">
                 <Carousel.Item>
-                  <img
+                  <Image
                     className="d-block w-100"
                     src="/images/Takshavi-banner.jpg"
                     alt="First slide"
@@ -165,7 +165,7 @@ const Propertiesoverview = () => {
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img
+                  <Image
                     className="d-block w-100"
                     src="/images/Takshavi-banner.jpg"
                     alt="Second slide"
@@ -175,7 +175,7 @@ const Propertiesoverview = () => {
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img
+                  <Image
                     className="d-block w-100"
                     src="/images/Takshavi-banner.jpg"
                     alt="Third slide"
@@ -199,7 +199,7 @@ const Propertiesoverview = () => {
             <Col sm={12} lg={7}>
               <Carousel data-bs-theme="light ">
                 <Carousel.Item>
-                  <img
+                  <Image
                     className="d-block w-100"
                     src="/images/Homebanner1.jpg"
                     alt="First slide"
@@ -209,7 +209,7 @@ const Propertiesoverview = () => {
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img
+                  <Image
                     className="d-block w-100"
                     src="/images/Homebanner1.jpg"
                     alt="Second slide"
@@ -219,7 +219,7 @@ const Propertiesoverview = () => {
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img
+                  <Image
                     className="d-block w-100"
                     src="/images/Homebanner1.jpg"
                     alt="Third slide"

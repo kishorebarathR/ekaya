@@ -73,7 +73,7 @@ const Goa = () => {
               <>
                 <Carousel data-bs-theme="light">
                 <Carousel.Item>
-                  <img
+                  <Image
                     className="d-block w-100"
                     src="/images/Takshavi-banner.jpg"
                     alt="First slide"
@@ -83,7 +83,7 @@ const Goa = () => {
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img
+                  <Image
                     className="d-block w-100"
                     src="/images/Takshavi-banner.jpg"
                     alt="Second slide"
@@ -93,7 +93,7 @@ const Goa = () => {
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img
+                  <Image
                     className="d-block w-100"
                     src="/images/Takshavi-banner.jpg"
                     alt="Third slide"
